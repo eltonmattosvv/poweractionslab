@@ -7,9 +7,9 @@ on:
     inputs:
       # Change this value
       solution_name:
-        description: 'solution name'
+        description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: smartcustomizacoes
+        default: ALMLab
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -19,19 +19,20 @@ on:
         description: 'staging the unpacked solution folder before check-in *do not change*'
         required: true
         default: out/solutions/
-      solution_target_folder:
+      solution_target_folder: 
        description: 'folder name to be created and checked in *do not change*'
        required: true
        default: solutions/
-
 env:
 #edit your values here
   ENVIRONMENT_URL: https://b2bdev.crm2.dynamics.com/
-  USERNAME: elton.mattos-ext@viavarejo.com.br
+  CLIENT_ID: 460602c3-b90a-44f1-afbf-724844eeb82b
+  TENANT_ID: 45a43a69-03ca-404c-81fe-6e83e79c2d72
 
 jobs:
   export-from-dev:
     runs-on: windows-latest
+    # or you can say runs-on: ubuntu-latest
     env:
       RUNNER_DEBUG: 1
 
@@ -44,19 +45,20 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@0.4.0
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: 460602c3-b90a-44f1-afbf-724844eeb82b
-        tenant-id: 45a43a69-03ca-404c-81fe-6e83e79c2d72
-        client-secret: sc6kWS9HAC8zt6_tX2TkAJcQa~vHd.a-18
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{ secrets.PowerPlatformSPN }}
+        tenant-id: ${{env.TENANT_ID}}
+
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
-        user-name: ${{env.USERNAME}}
-        password-secret: ${{ secrets.password }}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{ secrets.PowerPlatformSPN }}
+        tenant-id: ${{env.TENANT_ID}}
         solution-name: ${{ github.event.inputs.solution_name }}
         solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
-
 
     - name: unpack-solution action
       uses: microsoft/powerplatform-actions/unpack-solution@0.4.0
@@ -67,7 +69,7 @@ jobs:
         overwrite-files: true
 
     - name: branch-solution, prepare it for a PullRequest
-      uses: microsoft/powerplatform-actions/branch-solution@0.4.0
+      uses: microsoft/powerplatform-actions/branch-solution@v0
       with:
         solution-folder: ${{ github.event.inputs.solution_folder}}/${{ github.event.inputs.solution_name }}
         solution-target-folder: ${{ github.event.inputs.solution_target_folder}}/${{ github.event.inputs.solution_name }}
