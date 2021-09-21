@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4e92dfc5-e6ab-4c06-be37-5c8597f21e80}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_order_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_orderid">
+          <cell name="createdon" width="141" />
+          <cell name="statuscode" width="123" />
+          <cell name="smt_st_id" width="100" />
+          <cell name="smt_ac_int_quantity_items" width="100" />
+          <cell name="smt_c_mn_total_value" width="100" />
+          <cell name="smt_accountid" width="205" />
+          <cell name="smt_contactid" width="247" />
+          <cell name="a_63a94e363aa1eb11b1ac0022483741ab.emailaddress1" width="175" disableSorting="1" />
+          <cell name="a_63a94e363aa1eb11b1ac0022483741ab.mobilephone" width="195" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_order">
+          <attribute name="smt_accountid" />
+          <attribute name="smt_contactid" />
+          <attribute name="createdon" />
+          <attribute name="smt_st_id" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="statuscode" />
+          <attribute name="smt_ac_int_quantity_items" />
+          <attribute name="smt_c_mn_total_value" />
+          <link-entity alias="a_63a94e363aa1eb11b1ac0022483741ab" name="contact" from="contactid" to="smt_contactid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+            <attribute name="mobilephone" />
+          </link-entity>
+          <attribute name="smt_orderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="TODOS OS PEDIDOS" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

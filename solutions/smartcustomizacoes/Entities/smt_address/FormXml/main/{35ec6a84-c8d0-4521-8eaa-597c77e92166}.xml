@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{35ec6a84-c8d0-4521-8eaa-597c77e92166}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="geral" id="6ba247ab-0c4b-4fb7-91f7-6a3b12392ed4" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="geral" id="287139fc-a8ae-4da4-8050-c045a49a9817" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f9a7f477-fd94-4af7-846e-fd3ea9fd0116}">
+                        <labels>
+                          <label description="Alias" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_address_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_address_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50cc2ac6-da4b-4cb2-b713-d5a22267bb5f}" locklevel="0">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_accountid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bb3657e-8cfa-46cb-b042-1c5b14e358c3}" locklevel="0">
+                        <labels>
+                          <label description="CEP" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_cep" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_cep" disabled="false" uniqueid="{42267263-6997-1756-e8b6-c44a3d9b0420}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c184d2b-7217-4ac8-9940-148c7ff4c57e}" locklevel="0">
+                        <labels>
+                          <label description="Logradouro" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_public_place" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_public_place" disabled="false" uniqueid="{7974dbdc-01c2-812d-e1e9-55980046ecec}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b39824d-07a0-4223-a096-6f4eebd6646b}" locklevel="0">
+                        <labels>
+                          <label description="Número" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_number" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_number" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1f22021a-abb0-4456-af67-38bce8807f92}" locklevel="0">
+                        <labels>
+                          <label description="Complemento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_complement" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_complement" disabled="false" uniqueid="{96b41eb8-5153-bb8a-9024-29ba9b1642ce}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c0204de-4e1a-c238-1194-04846b737ccd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bairro" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_district" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_district" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c92da9d0-68bc-4b77-b389-c4f84fd0f1fc}" locklevel="0">
+                        <labels>
+                          <label description="Cidade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_cityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_cityid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6f58a167-1174-4a47-94a1-96bd4b2dbd90}" locklevel="0">
+                        <labels>
+                          <label description="Estado" languagecode="1046" />
+                        </labels>
+                        <control id="smt_stateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_stateid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2d79227-5eb2-5549-e683-cda551db61c4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ponto de referencia" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_referencepoint" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_referencepoint" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{07d9a41f-580a-4290-a1ce-84109d5b2eca}" locklevel="0">
+                        <labels>
+                          <label description="Tipo de endereço" languagecode="1046" />
+                        </labels>
+                        <control id="smt_pl_address_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="smt_pl_address_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3789cf5-7985-4fa4-88ef-2cadc0ea110c}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="seguro" id="0bc0b288-30e8-464f-b84a-7239436e9821" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="SEGURO" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6c085959-129b-437d-9f88-e8e21a398ea2}" locklevel="0">
+                        <labels>
+                          <label description="Apólice" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_apolice" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_apolice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ea52f47-8bf9-44e9-99ee-9b43b8270621}" locklevel="0">
+                        <labels>
+                          <label description="Nº do Atendimento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_service_number" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_service_number" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_4" id="98a64535-2d06-4ae5-8e24-7d423f4e9e0f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6008bd48-3ce3-9bc7-63d9-20e4bc32a9d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Destinatário" languagecode="1046" />
+                        </labels>
+                        <control id="smt_destinatario_clienteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_destinatario_clienteid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a11e0a9-69d7-4abb-5c75-85ac20a81c76}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Informações do Contato" languagecode="1046" />
+                        </labels>
+                        <control id="visualizacao_rapida_contato" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="smt_destinatario_clienteid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;707fc57b-c5e6-471b-a180-e37ed28a38e2&lt;/QuickFormId&gt;&lt;QuickFormId entityname="account"&gt;b028db32-3619-48a5-ac51-cf3f947b0ef3&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8c48e138-953d-4795-8e41-2dc07bc7a91c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{aa431c54-d482-4c98-8055-dc2a0bccf0ea}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{7fd5b860-2afe-48e4-88c2-d3f349c37452}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{4a3fc68c-2765-4799-9a85-1e6d02e8df96}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{31df872f-ddbb-4d8f-b6de-6969b50ebc18}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{88e43fc3-cbdc-47f3-8aed-07f1387925bf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{ef18da80-aba0-4c7e-8922-ec10ba01c3e9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{ad74a62b-6397-4b00-9342-286d4a095264}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1046" Text="Comum" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1046" Text="Vendas" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1046" Text="Serviços" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1046" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1046" Text="Sessões de Processo" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="PRINCIPAL" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

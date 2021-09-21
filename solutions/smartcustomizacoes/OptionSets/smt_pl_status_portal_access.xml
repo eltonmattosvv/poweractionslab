@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="smt_pl_status_portal_access" localizedName="Status de acesso ao portal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Status de acesso ao portal" languagecode="1046" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1046" />
+  </Descriptions>
+  <options>
+    <option value="180580000">
+      <labels>
+        <label description="Aprovado" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580001">
+      <labels>
+        <label description="Aguardando aprovação" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580002">
+      <labels>
+        <label description="Recusado" languagecode="1046" />
+      </labels>
+    </option>
+  </options>
+</optionset>

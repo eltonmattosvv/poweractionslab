@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c0bb9d52-6734-4c59-9d43-5ce8561666de}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_cart_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_cartid">
+          <cell name="smt_st_id" width="140" />
+          <cell name="createdon" width="160" />
+          <cell name="smt_accountid" width="130" />
+          <cell name="smt_contactid" width="150" />
+          <cell name="smt_bo_special_discount" width="141" />
+          <cell name="smt_st_campaign" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_cart">
+          <attribute name="smt_cartid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="smt_st_id" />
+          <attribute name="createdon" />
+          <attribute name="smt_accountid" />
+          <attribute name="smt_contactid" />
+          <attribute name="smt_bo_special_discount" />
+          <attribute name="smt_st_campaign" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Carrinhos Inativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

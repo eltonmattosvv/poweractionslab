@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ba1c9914-4a9f-4e24-9b39-1baa39ff643b}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_configuracoesdositeviaempresases" jump="smt_name" select="1" icon="1" preview="1">
+        <row name="smt_configuracoesdositeviaempresas" id="smt_configuracoesdositeviaempresasid">
+          <cell name="smt_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_configuracoesdositeviaempresas">
+          <attribute name="smt_configuracoesdositeviaempresasid" />
+          <attribute name="smt_name" />
+          <attribute name="createdon" />
+          <order attribute="smt_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição Associada de Configuração do Site Via Empresas" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

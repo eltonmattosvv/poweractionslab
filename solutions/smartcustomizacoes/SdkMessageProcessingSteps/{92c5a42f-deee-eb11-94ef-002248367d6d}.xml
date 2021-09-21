@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="ViaVarejoPortalParceiros.Extends.Plugins.Contato.PostOperation: Update of contact" SdkMessageProcessingStepId="{92c5a42f-deee-eb11-94ef-002248367d6d}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>ViaVarejoPortalParceiros.Extends.Plugins.Contato.PostOperation, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4</PluginTypeName>
+  <PluginTypeId>4baaed54-8062-4876-947c-18346591a01c</PluginTypeId>
+  <PrimaryEntity>contact</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>ViaVarejoPortalParceiros.Extends.Plugins.Contato.PostOperation: Update of contact</Description>
+  <FilteringAttributes>smt_mpl_shopping_portal_access,smt_pl_status_portal_access,smt_op_statusconvite</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{9c1f2c6c-deee-eb11-94ef-002248367d6d}</SdkMessageProcessingStepImageId>
+      <Attributes>smt_mpl_shopping_portal_access,smt_st_cpf,emailaddress1,adx_identity_passwordhash,firstname,parentcustomerid,lastname</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

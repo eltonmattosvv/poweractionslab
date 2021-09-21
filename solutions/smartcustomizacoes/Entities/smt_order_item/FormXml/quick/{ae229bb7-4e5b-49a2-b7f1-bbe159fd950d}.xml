@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ae229bb7-4e5b-49a2-b7f1-bbe159fd950d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{54aee73d-3894-4dcf-9946-b9a5900dba8f}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{666529d9-b05d-4298-ad82-4162fb8e082a}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0610f575-ab87-4c43-8622-8b08e010c3f8}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_order_item_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_order_item_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6c7675c-5a39-4c80-a60a-8c204702a29e}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae755a94-fbce-48b4-bd10-673591e8cf25}" locklevel="0">
+                        <labels>
+                          <label description="Pedido" languagecode="1046" />
+                        </labels>
+                        <control id="smt_orderid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_orderid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5282f7ae-7d18-4ea1-9962-1a097bbb1d41}" locklevel="0">
+                        <labels>
+                          <label description="Departamento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_departmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_departmentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{437cec1b-6b0e-4253-b8f4-d7e3b86db742}" locklevel="0">
+                        <labels>
+                          <label description="Categoria" languagecode="1046" />
+                        </labels>
+                        <control id="smt_categoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_categoryid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f97d4617-d734-409d-8c3a-ca966ff7562d}" locklevel="0">
+                        <labels>
+                          <label description="Id Produto" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_product_id" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_product_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb864763-9df1-482e-ac86-ad95f951d276}" locklevel="0">
+                        <labels>
+                          <label description="SKU" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_sku" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_sku" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12d59a2b-ee4c-49f6-806a-4f492a0d243c}" locklevel="0">
+                        <labels>
+                          <label description="Valor unitário" languagecode="1046" />
+                        </labels>
+                        <control id="smt_mn_unitary_value" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="smt_mn_unitary_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{443b19fb-29f2-4e37-accb-5965d6cd93ec}" locklevel="0">
+                        <labels>
+                          <label description="Quantidade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_int_quantity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="smt_int_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{397342a4-1967-42aa-9089-e45f9356b47d}" locklevel="0">
+                        <labels>
+                          <label description="Valor Total" languagecode="1046" />
+                        </labels>
+                        <control id="smt_c_mn_total_value" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="smt_c_mn_total_value" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

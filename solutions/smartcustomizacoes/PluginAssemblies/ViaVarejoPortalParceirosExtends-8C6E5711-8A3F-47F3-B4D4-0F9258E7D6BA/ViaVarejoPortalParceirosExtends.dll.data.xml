@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginAssemblyId="8c6e5711-8a3f-47f3-b4d4-0f9258e7d6ba" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ViaVarejoPortalParceirosExtends-8C6E5711-8A3F-47F3-B4D4-0F9258E7D6BA/ViaVarejoPortalParceirosExtends.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalAprovarCotacao, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="242a180e-b152-451d-89fb-eac7bc3c9541" Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalAprovarCotacao">
+      <FriendlyName>833a6e7a-4ea1-4fd1-aeda-61c6d9b58334</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalConfirmacaoTokens, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="f2850245-e4cf-4e5e-96a7-fbb395c4114b" Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalConfirmacaoTokens">
+      <FriendlyName>47bf7618-4c1e-4cb5-83b7-575190aa41c9</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarCarrinho, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="1f663c19-a22b-4d5f-9fa6-a9f66707bc85" Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarCarrinho">
+      <FriendlyName>9f18000f-2c83-4e7c-92d4-0e8969b6392d</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarUsuario, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="2e64448a-2034-48e2-841a-b709736a3bf9" Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarUsuario">
+      <FriendlyName>b3c62c48-b453-4002-aa78-f4f068f6168f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CRM.ViaVarejoPortalParceiros.Extends.Plugins.Endereco.PortalGerenciarEndereco, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="38f7283b-a07a-45c7-82b9-dce4ce957584" Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins.Endereco.PortalGerenciarEndereco">
+      <FriendlyName>7451f412-0dd3-4a05-a28a-254da29a1dc6</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CRM.ViaVarejoPortalParceiros.Extends.Plugins.TokenDeAcesso.PreOperation, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="048d0771-9565-43cc-844f-8d26d5bf6c65" Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins.TokenDeAcesso.PreOperation">
+      <FriendlyName>84618789-2b59-4567-818f-0d497298a971</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="ViaVarejoPortalParceiros.Extends.Plugins.Contato.PostOperation, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="4baaed54-8062-4876-947c-18346591a01c" Name="ViaVarejoPortalParceiros.Extends.Plugins.Contato.PostOperation">
+      <FriendlyName>90381fe4-ae50-46b3-bc2e-28baad8cf53a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="ViaVarejoPortalParceiros.Extends.Plugins.Contato.PreOperation, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="19589682-0842-4604-8916-6b54a23d3caf" Name="ViaVarejoPortalParceiros.Extends.Plugins.Contato.PreOperation">
+      <FriendlyName>b3ae45ef-ce86-45f3-a4ee-092f2bcc1be7</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="ViaVarejoPortalParceiros.Extends.Plugins.Incidente.PreOperation, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="514dcf89-77ac-4d98-85bc-ac9e015845fa" Name="ViaVarejoPortalParceiros.Extends.Plugins.Incidente.PreOperation">
+      <FriendlyName>400909e9-8658-43ac-b1cf-dbe54b761425</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

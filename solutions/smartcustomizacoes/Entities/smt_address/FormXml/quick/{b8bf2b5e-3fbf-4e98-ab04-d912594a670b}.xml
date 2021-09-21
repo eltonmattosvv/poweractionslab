@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b8bf2b5e-3fbf-4e98-ab04-d912594a670b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab verticallayout="true" id="{2c0b748d-d8a6-42ee-919a-1a8c1ec5b103}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="true" IsUserDefined="0" id="{59162da0-8b7b-48eb-9dd1-a0faba0b0b0c}" name="endereco" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="ENDEREÇO" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3c57eac1-d699-4fcd-880f-ca75c4afafb2}" visible="false" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{7972550c-d05b-a7a6-58ea-ee2b29a109e4}" disabled="true">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd020c98-e143-4d22-b83b-c8e31bf16491}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_accountid" disabled="true" uniqueid="{0bba1b6d-4928-5cb3-e494-371100600a86}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63e3dc43-5195-4de7-a443-6114133f2deb}">
+                        <labels>
+                          <label description="Alias" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_address_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_address_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{098bfbcf-41d5-4d5c-89ff-547be60a7562}" locklevel="0">
+                        <labels>
+                          <label description="CEP" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_cep" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_cep" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1bdb1732-950e-7c85-417a-89dd3b312ccd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Logradouro" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_public_place" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_public_place" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c041dc2-b04c-0938-6872-910c697eae24}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Complemento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_complement" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_complement" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5b00897-fb77-4e7b-a38c-e287f6484483}" locklevel="0">
+                        <labels>
+                          <label description="Número" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_number" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_number" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{748a0c90-de10-9c7c-d526-4381740bc478}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bairro" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_district" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_district" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98c28c90-8bbd-43c3-b000-93fcff501fd8}" locklevel="0">
+                        <labels>
+                          <label description="Cidade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_cityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_cityid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8752d808-1207-4bc2-8514-ebbb50d424c5}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Estado" languagecode="1046" />
+                        </labels>
+                        <control id="smt_stateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_stateid" disabled="false" uniqueid="{bcb1c670-360c-27cd-b4a6-7a6eb809c353}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{420A8A55-7437-425D-B2BA-109BC9A383F1}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c73a9c2c-b41e-d581-768a-470322d4c989}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ponto de referencia" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_referencepoint" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_referencepoint" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2c6a4ad-900d-e95b-d1ce-9e319ea4e573}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Tipo de Endereço" languagecode="1046" />
+                        </labels>
+                        <control id="smt_pl_address_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smt_pl_address_type" disabled="false" uniqueid="{16217657-9edd-32c0-dce8-6c0a16dcd324}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="VISUALIZAÇÃO RÁPIDA" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

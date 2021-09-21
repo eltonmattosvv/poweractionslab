@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{37b9c669-ab4f-4983-b9a6-ebc1e458291c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab verticallayout="true" id="{a9ecdb7f-a49b-4a78-b1b5-8ab60b5f4882}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{26fce6b6-19be-44df-99e2-a20d1f818697}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{002758d2-844d-4032-b257-4892f3cff811}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_quotation_item_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_quotation_item_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{637d0d50-bbba-472e-b371-8d389780db71}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c46258f2-8af2-458f-816d-836d6c6b9500}" locklevel="0">
+                        <labels>
+                          <label description="Cotação" languagecode="1046" />
+                        </labels>
+                        <control id="smt_quotationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_quotationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72983c73-a0c5-485f-8682-e3c1fb645441}" locklevel="0">
+                        <labels>
+                          <label description="Departamento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_departmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_departmentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ca20178-cbf3-4537-8094-951d56f89b33}" locklevel="0">
+                        <labels>
+                          <label description="Id Produto" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_product_id" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_product_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f4331297-ff37-433d-bbcb-b2e5076e9119}" locklevel="0">
+                        <labels>
+                          <label description="SKU" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_sku" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_sku" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{225382b4-e640-44f7-8633-9131d080ce8c}" locklevel="0">
+                        <labels>
+                          <label description="Valor unitário" languagecode="1046" />
+                        </labels>
+                        <control id="smt_mn_unitary_value" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="smt_mn_unitary_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5bd9c88-3543-4360-ba78-874b09dc85e3}" locklevel="0">
+                        <labels>
+                          <label description="Quantidade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_int_quantity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="smt_int_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="VISUALIZAÇÃO RÁPIDA (IGNORAR)" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b7ae7e1a-ed0a-4623-bf12-3460e1d43a43}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{2dbc518e-0717-49be-bd45-9fe3aee6691b}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{84b5691a-1570-45f3-98d5-cf73a574f51c}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3b8b6775-58b2-4562-9a48-1efb223ea972}">
+                        <labels>
+                          <label description="TenanId" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_tenanid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_tenanid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{deec22cc-41d3-4934-ae50-54261e03abdc}" locklevel="0">
+                        <labels>
+                          <label description="Validade do Token de Acesso" languagecode="1046" />
+                        </labels>
+                        <control id="smt_int_token_validity" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="smt_int_token_validity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ecade27f-3509-47bc-af31-6d457781aa85}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5316a20c-69b8-4c2b-a3a0-d42e8ce05abf}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b52065d3-30e3-43f0-9a9d-aa21305e17d7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{11e12afc-ef6c-40ac-8ee8-2fa681e4d8ae}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{14be6c21-f5bc-4960-bbe9-4efb395642c0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{76dad067-093c-42d4-b99d-b3006412b7ab}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c6fce92c-85ff-44e6-b5b4-5526a7d16bf8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{10990027-35c8-4849-9dbd-2c1900dc8703}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{5b9191dc-b2e0-4310-8883-3f5212268268}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dc41a264-4ff3-4df7-aaa1-c2bcefe62345}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_flag_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_flagid">
+          <cell name="smt_st_flag_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_flag">
+          <attribute name="smt_flagid" />
+          <attribute name="smt_st_flag_name" />
+          <attribute name="createdon" />
+          <order attribute="smt_st_flag_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição de Localização Avançada de Bandeira" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

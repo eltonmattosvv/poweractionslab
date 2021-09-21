@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0a9a2169-895e-4e9d-bc81-15997eb4db0f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_special_quote_deadline" select="1" icon="1" preview="1">
+        <row name="result" id="smt_dynamic_informationid">
+          <cell name="smt_st_special_quote_deadline" width="300" />
+          <cell name="smt_st_delivery_time_information" width="281" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_dynamic_information">
+          <attribute name="smt_dynamic_informationid" />
+          <attribute name="smt_st_special_quote_deadline" />
+          <order attribute="smt_st_special_quote_deadline" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smt_st_special_quote_deadline" operator="like" value="{0}" />
+          </filter>
+          <attribute name="smt_st_delivery_time_information" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Localização Rápida de Informações Dinâmicas Ativo(a)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

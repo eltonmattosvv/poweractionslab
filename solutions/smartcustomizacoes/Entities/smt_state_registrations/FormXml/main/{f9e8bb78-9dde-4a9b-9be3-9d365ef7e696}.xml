@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f9e8bb78-9dde-4a9b-9be3-9d365ef7e696}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{6b03f9f9-912a-4bbd-bad0-42cdfacd724f}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{456d0e9a-1c2b-4183-833e-3c4ea34fee53}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7e31b71c-ac0e-40b2-bc1e-eb65546464c2}" visible="false">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ed91bf2-7e5d-4dc5-b491-68a67e45a1aa}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73544d43-0ec3-43d1-b301-e04630282209}" locklevel="0">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_accountid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88158751-cc00-4147-ac92-befdf280229e}" locklevel="0">
+                        <labels>
+                          <label description="Estado" languagecode="1046" />
+                        </labels>
+                        <control id="smt_stateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_stateid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b18f87f-57d3-41b1-bdfa-d55d6fad5f40}" locklevel="0">
+                        <labels>
+                          <label description="Data da Consulta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_dt_consultation_date" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="smt_dt_consultation_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2106d7c-5096-49ad-aee0-5dcf9be5ba42}" locklevel="0">
+                        <labels>
+                          <label description="Id da Consulta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_int_consultation_id" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="smt_int_consultation_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70aed8d3-4b0f-4dae-878f-72a877c304f8}" locklevel="0">
+                        <labels>
+                          <label description="Nº da Consulta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_consultation_number" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_consultation_number" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d290ecbf-c35c-46b6-bf0b-d3588bc4999b}" locklevel="0">
+                        <labels>
+                          <label description="Situação Cadastral" languagecode="1046" />
+                        </labels>
+                        <control id="smt_state_cadastral_situationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_state_cadastral_situationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b8aa54f-ffe7-4667-9d74-21aff7a87b0a}" locklevel="0">
+                        <labels>
+                          <label description="Inscrição Estadual" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_state_registration" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_state_registration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8a06d4f-6e04-40be-a863-04eb65141e9e}" locklevel="0">
+                        <labels>
+                          <label description="Demais Inscrições" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_other_subscriptions" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_other_subscriptions" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{402ebcb6-d5b5-410e-ac15-665a20e1dbfa}" locklevel="0">
+                        <labels>
+                          <label description="JSON IE" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_json_ie" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_json_ie" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1e4b6ec-c1fb-4460-816b-910a0896f333}" locklevel="0">
+                        <labels>
+                          <label description="Sucesso" languagecode="1046" />
+                        </labels>
+                        <control id="smt_bo_success" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="smt_bo_success" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa01fd2e-ee92-4240-aace-828b4008b3bb}" locklevel="0">
+                        <labels>
+                          <label description="Mensagem de Erro" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_error_message" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_error_message" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{43c0d0dd-298e-48c0-8d09-b2e0d6e32686}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{16768546-63b2-45ee-988b-0177eb0b8b41}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{efb421b6-fb60-4c78-9cb8-049839221129}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{f23fa7f2-293c-4122-9a43-c2554a6b8eed}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ae3fc2e3-fa09-45ed-bb8f-34a4d21c29ad}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{64f989bb-f5ed-49af-a152-c06906a47a98}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{e84aa1f2-fa0b-4b3b-a435-d9e8e8b5c726}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{178793a9-12f2-4230-80ec-43e0e305cc15}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

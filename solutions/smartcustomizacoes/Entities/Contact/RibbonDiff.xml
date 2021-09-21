@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="smt.AccessChecker.OpenDialog.contact.Button.Hide" Location="AccessChecker.OpenDialog.contact.Button" />
+    <HideCustomAction HideActionId="smt.adx.contact.CreateInvitation.Button.Hide" Location="adx.contact.CreateInvitation.Button" />
+    <HideCustomAction HideActionId="smt.adx.contact.Form.ChangePasswordFlow.Button.Hide" Location="adx.contact.Form.ChangePasswordFlow.Button" />
+    <HideCustomAction HideActionId="smt.adx.contact.form.CreateInvitation.Button.Hide" Location="adx.contact.form.CreateInvitation.Button" />
+    <HideCustomAction HideActionId="smt.adx.contact.Homepage.ChangePassword.Button.Hide" Location="adx.contact.Homepage.ChangePassword.Button" />
+    <HideCustomAction HideActionId="smt.adx.contact.Homepage.ChangePasswordFlow.Button.Hide" Location="adx.contact.Homepage.ChangePasswordFlow.Button" />
+    <CustomAction Id="smt.contact.Button2.Button.dev1.EntityDisplayName.RunWebHookForm.EnviarConvite.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="53">
+      <CommandUIDefinition>
+        <Button Command="smt.contact.Button2.Button.dev1.EntityDisplayName.RunWebHookForm.EnviarConvite" Description="{&quot;smartbuttonid&quot;:&quot;smartbutton.runwebhook&quot;,&quot;Title&quot;:&quot;Enviar Convite&quot;,&quot;webhookurl&quot;:&quot;https://prod-21.brazilsouth.logic.azure.com:443/workflows/60015d54d6004278896e2eb38824f1b2/triggers/manual/paths/invoke?api-version=2016-06-01&amp;sp=%2Ftriggers%2Fmanual%2Frun&amp;sv=1.0&amp;sig=c1XyP_YpnEezmrk_hEgxasew8RiW9Yvxu_v03BqN_Xo&quot;,&quot;confirm&quot;:&quot;Deseja enviar o Convite ?&quot;,&quot;callback&quot;:&quot;Xrm.Navigation.openAlertDialog({text: \&quot;Convite enviado com sucesso !\&quot;}); Xrm.Page.data.refresh(true);&quot;,&quot;errorCallback&quot;:&quot;Xrm.Navigation.openAlertDialog({text:\&quot;Erro ao enviar o convite, tente novamente. Caso o erro permaneça contate o administrado do sistema\&quot;});&quot;}" Id="smt.contact.Button2.Button.dev1.EntityDisplayName.RunWebHookForm.EnviarConvite" Image32by32="$webresource:adx_icon_invitation_medium" Image16by16="$webresource:adx_icon_invitation_small" LabelText="$LocLabels:smt.contact.Button2.Button.dev1.EntityDisplayName.RunWebHookForm.EnviarConvite.LabelText" Sequence="53" TemplateAlias="o1" ModernImage="$webresource:adx_create_invitation.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smt.contact.Button4.Button.dev1.EntityDisplayName.RunWebHookGrid.EnviarConvite.CustomAction" Location="Mscrm.HomepageGrid.contact.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <Button Command="smt.contact.Button4.Button.dev1.EntityDisplayName.RunWebHookGrid.EnviarConvite" Description="{&quot;smartbuttonid&quot;:&quot;smartbutton.runwebhook&quot;,&quot;Title&quot;:&quot;Enviar Convite&quot;,&quot;webhookurl&quot;:&quot;https://prod-21.brazilsouth.logic.azure.com:443/workflows/60015d54d6004278896e2eb38824f1b2/triggers/manual/paths/invoke?api-version=2016-06-01&amp;sp=%2Ftriggers%2Fmanual%2Frun&amp;sv=1.0&amp;sig=c1XyP_YpnEezmrk_hEgxasew8RiW9Yvxu_v03BqN_Xo&quot;,&quot;confirm&quot;:&quot;Deseja enviar o convite para o(s) registro(s) selecionado(s) ?&quot;,&quot;callback&quot;:&quot;Xrm.Navigation.openAlertDialog({text: \&quot;Convite enviado com sucesso !\&quot;});&quot;,&quot;errorCallback&quot;:&quot;Xrm.Navigation.openAlertDialog({text:\&quot;Erro ao enviar o convite, tente novamente. Caso o erro permaneça contate o administrado do sistema\&quot;});&quot;}" Id="smt.contact.Button4.Button.dev1.EntityDisplayName.RunWebHookGrid.EnviarConvite" Image32by32="$webresource:adx_icon_invitation_medium" Image16by16="$webresource:adx_icon_invitation_small" LabelText="$LocLabels:smt.contact.Button4.Button.dev1.EntityDisplayName.RunWebHookGrid.EnviarConvite.LabelText" Sequence="55" TemplateAlias="o3" ModernImage="$webresource:adx_create_invitation.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.AddConnection.Hide" Location="Mscrm.Form.contact.AddConnection" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.AddToList.Hide" Location="Mscrm.Form.contact.AddToList" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.Assign.Hide" Location="Mscrm.Form.contact.Assign" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.contact.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.FollowButton.Hide" Location="Mscrm.Form.contact.FollowButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.Permissions.Sharing.Hide" Location="Mscrm.Form.contact.Permissions.Sharing" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.Reports.Hide" Location="Mscrm.Form.contact.Reports" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.SendSelected.Hide" Location="Mscrm.Form.contact.SendSelected" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.contact.WordTemplate.Hide" Location="Mscrm.Form.contact.WordTemplate" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.AddToList.Hide" Location="Mscrm.HomepageGrid.contact.AddToList" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.contact.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Chart.Assign.Hide" Location="Mscrm.HomepageGrid.contact.Chart.Assign" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Chart.New.Hide" Location="Mscrm.HomepageGrid.contact.Chart.New" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Chart.Share.Hide" Location="Mscrm.HomepageGrid.contact.Chart.Share" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Charts.Hide" Location="Mscrm.HomepageGrid.contact.Charts" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.contact.DocumentTemplate" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.FollowButton.Hide" Location="Mscrm.HomepageGrid.contact.FollowButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.contact.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Meqf.Hide" Location="Mscrm.HomepageGrid.contact.Meqf" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.MergeRecords.Hide" Location="Mscrm.HomepageGrid.contact.MergeRecords" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.NewView.Hide" Location="Mscrm.HomepageGrid.contact.NewView" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.QuickCampaign.Hide" Location="Mscrm.HomepageGrid.contact.QuickCampaign" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.RunReport.Hide" Location="Mscrm.HomepageGrid.contact.RunReport" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.contact.RunWorkflow" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Send.Hide" Location="Mscrm.HomepageGrid.contact.Send" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.Sharing.Hide" Location="Mscrm.HomepageGrid.contact.Sharing" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.SystemView.Hide" Location="Mscrm.HomepageGrid.contact.SystemView" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.contact.UnfollowButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.contact.ViewHierarchy" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.contact.WordTemplate.Hide" Location="Mscrm.HomepageGrid.contact.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="smt.contact.Button2.Button.dev1.EntityDisplayName.RunWebHookForm.EnviarConvite">
+      <EnableRules>
+        <EnableRule Id="Mscrm.FormStateNotNew" />
+        <EnableRule Id="smt.contact.EnableRule0.StatusConviteIsNot2" />
+        <EnableRule Id="smt.contact.EnableRule1.StatusConviteIsNot3" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="SmartButtons.ClientHooks.SmartButtons.RunWebHookSingle" Library="$webresource:dev1_/js/SmartButtons.ClientHooks.js">
+          <StringParameter Value="https://prod-21.brazilsouth.logic.azure.com:443/workflows/60015d54d6004278896e2eb38824f1b2/triggers/manual/paths/invoke?api-version=2016-06-01&amp;sp=%2Ftriggers%2Fmanual%2Frun&amp;sv=1.0&amp;sig=c1XyP_YpnEezmrk_hEgxasew8RiW9Yvxu_v03BqN_Xo" />
+          <CrmParameter Value="PrimaryItemIds" />
+          <StringParameter Value="Deseja enviar o Convite ?" />
+          <StringParameter Value="Xrm.Navigation.openAlertDialog({text: &quot;Convite enviado com sucesso !&quot;}); Xrm.Page.data.refresh(true);" />
+          <StringParameter Value="Xrm.Navigation.openAlertDialog({text:&quot;Erro ao enviar o convite, tente novamente. Caso o erro permaneça contate o administrado do sistema&quot;});" />
+          <CrmParameter Value="PrimaryControl" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="smt.contact.Button4.Button.dev1.EntityDisplayName.RunWebHookGrid.EnviarConvite">
+      <EnableRules>
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+        <EnableRule Id="smt.contact.EnableRule0.StatusConviteIsNot2" />
+        <EnableRule Id="smt.contact.EnableRule1.StatusConviteIsNot3" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="SmartButtons.ClientHooks.SmartButtons.RunWebHookMultiple" Library="$webresource:dev1_/js/SmartButtons.ClientHooks.js">
+          <StringParameter Value="https://prod-21.brazilsouth.logic.azure.com:443/workflows/60015d54d6004278896e2eb38824f1b2/triggers/manual/paths/invoke?api-version=2016-06-01&amp;sp=%2Ftriggers%2Fmanual%2Frun&amp;sv=1.0&amp;sig=c1XyP_YpnEezmrk_hEgxasew8RiW9Yvxu_v03BqN_Xo" />
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+          <StringParameter Value="Deseja enviar o convite para o(s) registro(s) selecionado(s) ?" />
+          <StringParameter Value="Xrm.Navigation.openAlertDialog({text: &quot;Convite enviado com sucesso !&quot;});" />
+          <StringParameter Value="Xrm.Navigation.openAlertDialog({text:&quot;Erro ao enviar o convite, tente novamente. Caso o erro permaneça contate o administrado do sistema&quot;});" />
+          <CrmParameter Value="PrimaryControl" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="smt.contact.EnableRule0.StatusConviteIsNot2">
+        <ValueRule Field="smt_op_statusconvite" Value="2" Default="false" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="smt.contact.EnableRule1.StatusConviteIsNot3">
+        <ValueRule Field="smt_op_statusconvite" Value="3" Default="false" InvertResult="true" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="smt.contact.Button2.Button.dev1.EntityDisplayName.RunWebHookForm.EnviarConvite.LabelText">
+      <Titles>
+        <Title description="Run WebHook" languagecode="1033" />
+        <Title description="Enviar Convite" languagecode="1046" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smt.contact.Button4.Button.dev1.EntityDisplayName.RunWebHookGrid.EnviarConvite.LabelText">
+      <Titles>
+        <Title description="Run WebHook" languagecode="1033" />
+        <Title description="Enviar Convite" languagecode="1046" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>
