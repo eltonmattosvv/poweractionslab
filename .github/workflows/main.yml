@@ -46,7 +46,6 @@ jobs:
         environment-url: ${{env.ENVIRONMENT_URL}}
         user-name: ${{env.USERNAME}}
         app-id: 460602c3-b90a-44f1-afbf-724844eeb82b
-        password-secret: ${{ secrets.password }}
         tenant-id: 45a43a69-03ca-404c-81fe-6e83e79c2d72
         client-secret: sc6kWS9HAC8zt6_tX2TkAJcQa~vHd.a-18
 
