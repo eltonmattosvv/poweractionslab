@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5ac09696-cbe9-4d03-a3ab-65b0c7c530ec}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_tenanid" select="1" icon="1" preview="1">
+        <row name="result" id="smt_ab2c_configurationid">
+          <cell name="smt_st_tenanid" width="300" />
+          <cell name="createdon" width="201" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_ab2c_configuration">
+          <attribute name="smt_ab2c_configurationid" />
+          <attribute name="smt_st_tenanid" />
+          <attribute name="createdon" />
+          <order attribute="smt_st_tenanid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smt_st_tenanid" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Localização Rápida de Configurações Azure B2C Ativo(a)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

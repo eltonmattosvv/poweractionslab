@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d7122fc9-b704-40b9-92c5-472e63b66106}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6170210a-06fa-416e-a23f-01e24d50125f}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b851a6ee-3b0b-407e-9818-c6500e5dbd6e}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{92a91311-fa4b-4b84-9d57-592e91cedeb8}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_carousel_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_carousel_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c72c23d-ed4d-4b61-979f-27726f1adad5}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{a3b6bd9d-db40-c925-9bb3-d882c84a8145}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd99a89c-3ae2-49a8-d290-043629ae8c8c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Link da Imagem" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_image_link" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_image_link" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b734408-5a86-b6e6-51e6-cce02ceaa32e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="URL da Imagem" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_image_url" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_image_url" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

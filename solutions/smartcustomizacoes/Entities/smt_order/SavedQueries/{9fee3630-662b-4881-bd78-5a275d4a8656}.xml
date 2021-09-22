@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9fee3630-662b-4881-bd78-5a275d4a8656}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_order_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_orderid">
+          <cell name="smt_st_id" width="164" />
+          <cell name="smt_accountid" width="167" />
+          <cell name="smt_contactid" width="172" />
+          <cell name="smt_quotationid" width="173" />
+          <cell name="createdon" width="178" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_order">
+          <attribute name="smt_orderid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="smt_accountid" />
+          <attribute name="smt_contactid" />
+          <attribute name="smt_quotationid" />
+          <attribute name="createdon" />
+          <attribute name="smt_st_id" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Pedidos Inativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

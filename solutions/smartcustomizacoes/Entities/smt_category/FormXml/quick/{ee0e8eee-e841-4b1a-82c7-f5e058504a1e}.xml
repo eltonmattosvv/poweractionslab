@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ee0e8eee-e841-4b1a-82c7-f5e058504a1e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{05ff4d51-1e14-46d4-b38d-46446ae80d05}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1bf285a0-2e3f-4079-9d89-1b41298bf876}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bf7551af-e4f3-47d1-9a59-fc26f0cbec53}">
+                        <labels>
+                          <label description="Nome " languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_category_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_category_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1fd3eb5b-5973-4976-ba1c-37ddb2744058}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{466ad924-0df4-4862-bff6-835eb101f107}" locklevel="0">
+                        <labels>
+                          <label description="Código" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_category_code" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_category_code" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ac17eefb-b0a7-eb11-9442-000d3ac11d26}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" preview="1" icon="1">
+        <row name="result" id="contactid">
+          <cell name="fullname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="emailaddress1" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mobilephone" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="telephone1" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smt_mpl_shopping_portal_access" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="contact">
+          <attribute name="fullname" />
+          <order attribute="fullname" descending="false" />
+          <attribute name="telephone1" />
+          <attribute name="mobilephone" />
+          <attribute name="emailaddress1" />
+          <attribute name="smt_mpl_shopping_portal_access" />
+          <attribute name="contactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="TODOS OS CONTATOS DA CONTA" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

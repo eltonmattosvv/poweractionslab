@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{be1bc55b-f1e8-422c-a567-dfb2e22c8bbf}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_azb2c_access_security_groups" jump="smt_st_name_azb2c_access" select="1" icon="1" preview="1">
+        <row name="smt_azb2c_access_security_group" id="smt_azb2c_access_security_groupid">
+          <cell name="smt_st_security_group_id" width="213" />
+          <cell name="smt_pl_shopping_portal_access" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_azb2c_access_security_group">
+          <attribute name="smt_azb2c_access_security_groupid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_st_security_group_id" />
+          <attribute name="smt_pl_shopping_portal_access" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição Associada de Azure B2C Acesso x Grupo de Segurança" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

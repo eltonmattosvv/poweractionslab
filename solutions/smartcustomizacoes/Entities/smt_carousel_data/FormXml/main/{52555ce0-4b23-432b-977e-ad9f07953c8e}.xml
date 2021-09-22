@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{52555ce0-4b23-432b-977e-ad9f07953c8e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{7a195505-bef6-46a0-b22e-df254b03ab31}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9d223f5e-82be-4020-99ee-65d8fe5ee1a1}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{22e40587-5d65-4583-b50d-09046b464597}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_carousel_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_carousel_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{77239bb3-802e-4324-8d79-5a5915b12591}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8ece690-090c-a81d-1162-c0e8b46ea75d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="URL da Imagem" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_image_url" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_image_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c3736ce5-74e3-4bcc-bbc3-246101455cc7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="URL da Imagem Menor" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_small_image_url" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_small_image_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d17e0034-e3c6-0145-4b50-c0d8515ab561}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Link da Imagem" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_image_link" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_image_link" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1046" Text="Comum" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1046" Text="Vendas" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1046" Text="Serviços" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1046" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1046" Text="Sessões de Processo" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <header id="{8385c1d1-41d5-4064-bfa5-9b04ae79d435}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6067eab8-521e-446f-a909-f4b65df68347}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{b44d4107-226c-4074-9446-68aa0a2723be}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{bf6333f8-e248-4bc2-a72f-63ddc855900e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c5d08678-134d-4de4-8b35-12a388783f23}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cbbc29f9-86f0-490d-8ca2-c2c2ee8bd47e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{d20376fe-093c-4b43-8041-d6c31ddfd591}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{276d709f-17df-4b78-9001-16574cf353df}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

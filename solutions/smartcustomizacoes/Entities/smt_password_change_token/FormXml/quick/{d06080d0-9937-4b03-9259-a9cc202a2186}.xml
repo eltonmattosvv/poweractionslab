@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d06080d0-9937-4b03-9259-a9cc202a2186}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{357b6f0c-1fb2-482a-8b6e-6c4a33b42b8b}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{61fbc48d-33a5-4d89-a135-2ecf7817b9de}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05a28f8b-6e42-4eb9-9bdd-4799ea79fad5}" visible="false">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_token_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_token_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d2ff350-f849-4b85-b4bf-34992b17a13c}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{498fe68b-4a4e-4460-ab58-273e09c5a93b}" locklevel="0">
+                        <labels>
+                          <label description="Token" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_token" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_token" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ba2aec1-d017-45a7-9454-a72603a0056d}" locklevel="0">
+                        <labels>
+                          <label description="Contato" languagecode="1046" />
+                        </labels>
+                        <control id="smt_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{618d00b3-830e-4708-b175-d0526d972ffb}" locklevel="0">
+                        <labels>
+                          <label description="Validade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_dt_validity" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="smt_dt_validity" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>smt_viaempresa</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="smt_via_empresas" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1046" Title="Via Empresa" />
+      </Titles>
+      <Group Id="smt_paineis" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Painéis" />
+        </Titles>
+        <SubArea Id="smt_paineis" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1046" Title="Painéis" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="smt_clientes" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Informações da Conta" />
+        </Titles>
+        <SubArea Id="smt_clientes_parceiros" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1046" Title="Parceiros" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="smt_clientes_usuarios_do_portal" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1046" Title="Usuários do Portal" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="smt_compras" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Compras" />
+        </Titles>
+        <SubArea Id="smt_compras_carrinho" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_cart" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1046" Title="Cotações" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="smt_compras_cotacoes" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_quotation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1046" Title="Detalhes da Cotação" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="smt_compras_pedidos" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_order" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="smt_atendimento" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Atendimento" />
+        </Titles>
+        <SubArea Id="smt_atendimento_ocorrencias" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="smt_atendimento_faq" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_doubts_faq" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="smt_informacoes_auxiliares" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Informações Auxiliares" />
+        </Titles>
+        <SubArea Id="smt_informacoes_auxiliares_bandeiras" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="smt_flag" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="smt_informacoes_auxiliares_categorias" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_category" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="smt_informacoes_auxiliares_departamentos" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_department" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="smt_informacoes_auxiliares_estados" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_state" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="smt_informacoes_auxiliares_municipios" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_city" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="smt_site" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Site" />
+        </Titles>
+        <SubArea Id="smt_site_informacoes_dinamicas" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_dynamic_information" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2e350428" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_configuracoesdositeviaempresas" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area Id="smt_configuracoes" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1046" Title="Configurações" />
+      </Titles>
+      <Group Id="NewGroup_c3120041" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1046" Title="Azure" />
+        </Titles>
+        <SubArea Id="NewSubArea_azure_b2b_access" Entity="smt_azb2c_access_security_group" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_e208af18" Entity="smt_ab2c_configuration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_0111bb1c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="smt_credencial_azure_b2c" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Via Empresa" languagecode="1046" />
+  </LocalizedNames>
+</AppModuleSiteMap>

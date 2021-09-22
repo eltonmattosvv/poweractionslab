@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{55df43f0-228c-4b0f-b802-f2611cdcc8c1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="tab_2" id="421696a1-6f9c-44d2-af96-58971bb2927f" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c3c45075-b55b-4433-bebb-691505114d13}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{62d61bb1-9584-4606-a57a-0806035062c7}" visible="false" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{16c51763-1dc5-61e4-ec90-439ea73d86c8}" disabled="true">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dac70f69-b66e-478e-a2fa-da470b944fa2}" locklevel="1" showlabel="true">
+                        <labels>
+                          <label description="Id" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_id" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_id" disabled="true" uniqueid="{71b03eec-2216-c9e8-2588-d6c9ac58b9e6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2aaa0c51-62c4-4d9f-b040-76c9024b7128}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_cart_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_cart_name" uniqueid="{301c9447-64b3-631c-293d-c6310edbcc64}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38cfe5ea-9fa3-4459-a367-275253dbb610}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_accountid" disabled="true" uniqueid="{44ad8d79-eb11-992c-0e1b-342d28913e73}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9813c52-26b1-44f6-85c9-ab354b5a8521}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Contato" languagecode="1046" />
+                        </labels>
+                        <control id="smt_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_contactid" disabled="true" uniqueid="{3492c9bc-cc99-b291-4cc6-c5aa15b6c70e}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <FilterRelationshipName>contact_customer_accounts</FilterRelationshipName>
+                            <DependentAttributeName>smt_cart.smt_accountid</DependentAttributeName>
+                            <DependentAttributeType>account</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bae6ca1d-9f0e-4f21-ab48-35c9a7307d17}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Desconto Especial" languagecode="1046" />
+                        </labels>
+                        <control id="smt_bo_special_discount" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="smt_bo_special_discount" disabled="false" uniqueid="{003726d5-9a10-c71b-1225-d6c14d09be63}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="enderecos" showlabel="true" showbar="true" locklevel="0" id="{d5ed6bc6-bd9e-5e5b-6b05-d2816a37aba8}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="ENDEREÇOS" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2b62add5-2541-4f39-968b-e299adf462c6}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Endereço de Faturamento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_billing_addressid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_billing_addressid" disabled="true" uniqueid="{9733ad56-4d59-3802-b22e-b1606655d4d8}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{020D2E14-B038-4247-8127-10001D47C7FC}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{fa63c0f7-b4b4-4ef6-abde-d7f9806c2540}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Endereço de Entrega" languagecode="1046" />
+                        </labels>
+                        <control id="smt_delivery_addressid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_delivery_addressid" disabled="true" uniqueid="{d8566361-9359-9c80-8946-d460c3211508}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{020D2E14-B038-4247-8127-10001D47C7FC}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e642edb8-9922-7eb9-3278-b3335c0a3d0c}" showlabel="true" colspan="1" auto="false">
+                        <labels>
+                          <label description="FATURAMENTO" languagecode="1046" />
+                        </labels>
+                        <control id="faturamento" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="smt_billing_addressid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="smt_address"&gt;b8bf2b5e-3fbf-4e98-ab04-d912594a670b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{0bbe8203-1684-d93d-d081-b5eba85894a0}" showlabel="true" colspan="1" auto="false">
+                        <labels>
+                          <label description="ENTREGA" languagecode="1046" />
+                        </labels>
+                        <control id="endereco_entrega" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="smt_delivery_addressid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="smt_address"&gt;b8bf2b5e-3fbf-4e98-ab04-d912594a670b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="cotacoes" id="cd2dfdf0-e846-4ce2-8676-815f546b7eb9" IsUserDefined="0" locklevel="0" showlabel="true" showbar="true" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="COTAÇÕES" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3caa1dd2-95b4-bdd9-406d-22c5a58b5c7e}" showlabel="false" colspan="1" auto="true" rowspan="4">
+                        <labels>
+                          <label description="Cotações (Carrinho)" languagecode="1046" />
+                        </labels>
+                        <control id="grd_cotacoes" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{1D88FC44-169D-456E-920C-D55214F1308D}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>smt_quotation_cartid_smt_cart</RelationshipName>
+                            <TargetEntityType>smt_quotation</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{1D88FC44-169D-456E-920C-D55214F1308D}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c774b9e6-73c5-4722-be1a-df16f9625441}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c13fdd24-2c72-4e35-86ba-c3095e37ac9f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{abe2a756-4725-eb8a-9a49-dcd5b6d880d1}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Data de Criação" languagecode="1046" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{0ea7000d-e352-e90c-7692-d41dbb7316ae}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Campanha" languagecode="1046" />
+              </labels>
+              <control id="header_smt_st_campaign" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_campaign" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8eccfd93-9b75-45a0-a54c-901647532767}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f5bff9e2-8e72-411b-99ea-8e830fa66026}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{8c5998a9-568d-4db7-9544-55705a8118d8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{da08a4f4-3707-4781-98bc-e7f8f3205fe2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1046" Text="Comum" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1046" Text="Vendas" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1046" Text="Serviços" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1046" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1046" Text="Sessões de Processo" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="PRINCIPAL" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

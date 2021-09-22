@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ac154b81-8606-4525-85d9-26288f7f8358}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_order_item_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_order_itemid">
+          <cell name="smt_st_order_item_name" width="267" />
+          <cell name="createdon" width="135" />
+          <cell name="smt_categoryid" width="138" />
+          <cell name="smt_departmentid" width="146" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_order_item">
+          <attribute name="smt_st_order_item_name" />
+          <attribute name="createdon" />
+          <order attribute="smt_st_order_item_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smt_st_order_item_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="smt_categoryid" />
+          <attribute name="smt_departmentid" />
+          <attribute name="smt_order_itemid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Localização Rápida de Itens do pedido Ativo(a)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

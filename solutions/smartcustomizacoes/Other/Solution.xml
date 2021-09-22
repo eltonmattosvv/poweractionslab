@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21091.126" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>smartcustomizacoes</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Smart.Customizações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.1.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>smartconsulting</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Smart Consulting" languagecode="1046" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>smt</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18058</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="incident" behavior="2" />
+      <RootComponent type="1" schemaName="slakpiinstance" behavior="0" />
+      <RootComponent type="1" schemaName="smt_ab2c_configuration" behavior="0" />
+      <RootComponent type="1" schemaName="smt_address" behavior="0" />
+      <RootComponent type="1" schemaName="smt_azb2c_access_security_group" behavior="0" />
+      <RootComponent type="1" schemaName="smt_carousel_data" behavior="0" />
+      <RootComponent type="1" schemaName="smt_cart" behavior="0" />
+      <RootComponent type="1" schemaName="smt_category" behavior="0" />
+      <RootComponent type="1" schemaName="smt_city" behavior="0" />
+      <RootComponent type="1" schemaName="smt_configuracoesdositeviaempresas" behavior="0" />
+      <RootComponent type="1" schemaName="smt_credencial_azure_b2c" behavior="0" />
+      <RootComponent type="1" schemaName="smt_delivery" behavior="0" />
+      <RootComponent type="1" schemaName="smt_department" behavior="0" />
+      <RootComponent type="1" schemaName="smt_doubts_faq" behavior="0" />
+      <RootComponent type="1" schemaName="smt_dynamic_information" behavior="0" />
+      <RootComponent type="1" schemaName="smt_email_confirmation_token" behavior="0" />
+      <RootComponent type="1" schemaName="smt_flag" behavior="0" />
+      <RootComponent type="1" schemaName="smt_highlights_information" behavior="0" />
+      <RootComponent type="1" schemaName="smt_incidente" behavior="0" />
+      <RootComponent type="1" schemaName="smt_order" behavior="0" />
+      <RootComponent type="1" schemaName="smt_order_item" behavior="0" />
+      <RootComponent type="1" schemaName="smt_order_update" behavior="0" />
+      <RootComponent type="1" schemaName="smt_password_change_token" behavior="0" />
+      <RootComponent type="1" schemaName="smt_quotation" behavior="0" />
+      <RootComponent type="1" schemaName="smt_quotation_item" behavior="0" />
+      <RootComponent type="1" schemaName="smt_state" behavior="0" />
+      <RootComponent type="1" schemaName="smt_state_registrations" behavior="0" />
+      <RootComponent type="1" schemaName="smt_state_registration_status" behavior="0" />
+      <RootComponent type="9" schemaName="smt_mpl_functionalities" behavior="0" />
+      <RootComponent type="9" schemaName="smt_mpl_relationship_type" behavior="0" />
+      <RootComponent type="9" schemaName="smt_mpl_shopping_portal_access" behavior="0" />
+      <RootComponent type="9" schemaName="smt_pl_address_type" behavior="0" />
+      <RootComponent type="9" schemaName="smt_pl_shopping_portal_access" behavior="0" />
+      <RootComponent type="9" schemaName="smt_pl_status_portal_access" behavior="0" />
+      <RootComponent type="9" schemaName="smt_pl_update_type" behavior="0" />
+      <RootComponent type="20" id="{c22b448b-86a3-eb11-b1ac-0022483741ab}" behavior="0" />
+      <RootComponent type="29" id="{2e235672-e538-49b3-90fa-6434dbfa7b0a}" behavior="0" />
+      <RootComponent type="29" id="{374c1bc7-91a6-eb11-9442-000d3ac1119d}" behavior="0" />
+      <RootComponent type="29" id="{5d1735d4-78c9-4cdc-a107-5a3e86982fcb}" behavior="0" />
+      <RootComponent type="29" id="{c0a55211-bc60-43d0-bfe7-155080738bca}" behavior="0" />
+      <RootComponent type="29" id="{c4adf9de-c233-4ade-88bd-4339dd5503a5}" behavior="0" />
+      <RootComponent type="29" id="{d7dffeaf-a955-48bb-8d0c-1335e0c7b961}" behavior="0" />
+      <RootComponent type="29" id="{dbc2cd2f-a5a3-eb11-b1ac-002248374f2f}" behavior="0" />
+      <RootComponent type="29" id="{e329ea97-9da3-eb11-b1ac-002248374f2f}" behavior="0" />
+      <RootComponent type="60" id="{39c97f05-f0a8-eb11-9442-000d3ac1119d}" behavior="0" />
+      <RootComponent type="60" id="{ccebe6ab-f2a8-eb11-9442-000d3ac1119d}" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_address" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_azure_b2c" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_azure_configuration" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_cadastral_situation" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_cart" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_category" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_city" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_deliver" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_department" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_dynamic_information" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_faq" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_flag" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_order" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_order_item" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_password_change_token" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_quotation" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_quotation_item" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_state" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_state_registrations" behavior="0" />
+      <RootComponent type="61" schemaName="smt_img_update_order" behavior="0" />
+      <RootComponent type="61" schemaName="smt_messages" behavior="0" />
+      <RootComponent type="61" schemaName="smt_messages.1046.resx" behavior="0" />
+      <RootComponent type="61" schemaName="smt_vvb2bviaempresas.1046.resx" behavior="0" />
+      <RootComponent type="62" schemaName="smt_viaempresa" behavior="0" />
+      <RootComponent type="80" schemaName="smt_viaempresa" behavior="0" />
+      <RootComponent type="91" id="{8c6e5711-8a3f-47f3-b4d4-0f9258e7d6ba}" schemaName="ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" behavior="0" />
+      <RootComponent type="91" id="{5b8769a8-ab9b-4dfc-a023-08b11d51f90f}" schemaName="VV.B2B.ViaEmpresas.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" behavior="0" />
+      <RootComponent type="92" id="{0969267f-e8d8-eb11-bacb-002248376717}" behavior="0" />
+      <RootComponent type="92" id="{09dcdc8d-f8ea-eb11-bacb-002248378e23}" behavior="0" />
+      <RootComponent type="92" id="{3379e8d3-18d8-eb11-bacb-002248376161}" behavior="0" />
+      <RootComponent type="92" id="{3bda251f-2de3-eb11-bacb-000d3ac197ae}" behavior="0" />
+      <RootComponent type="92" id="{3bdba4e5-36f9-eb11-94ef-000d3a886124}" behavior="0" />
+      <RootComponent type="92" id="{5b390979-37f9-eb11-94ef-000d3a886124}" behavior="0" />
+      <RootComponent type="92" id="{611b62c1-69db-eb11-bacb-002248376161}" behavior="0" />
+      <RootComponent type="92" id="{655d34c9-05d5-eb11-bacc-00224836e983}" behavior="0" />
+      <RootComponent type="92" id="{92c5a42f-deee-eb11-94ef-002248367d6d}" behavior="0" />
+      <RootComponent type="92" id="{b23694ad-7da7-eb11-9442-000d3ac11d26}" behavior="0" />
+      <RootComponent type="92" id="{d1318317-deee-eb11-94ef-002248367d6d}" behavior="0" />
+      <RootComponent type="152" id="{6e2439c2-bba6-eb11-9442-000d3ac11d26}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="contract" displayName="Contrato" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="contract" displayName="Contrato" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="contractdetail" displayName="Linha de Contrato" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="entitlement" displayName="Direito" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão do contato" parentDisplayName="Contato" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="entitlement" displayName="Direito" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão da conta" parentDisplayName="Parceiro" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="entitlement" displayName="Direito" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="1" schemaName="incident" displayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="smt_accountid" displayName="Conta" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="smt_contactid" displayName="Contato" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="smt_ownerid" displayName="Proprietário" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="smt_st_incident_description" displayName="Descrição" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão do contato" parentDisplayName="Contato" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão da conta" parentDisplayName="Parceiro" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="62" schemaName="smt_viaempresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_iotalert" displayName="Alerta de IoT" solution="IoTConnector (1.8.9.7)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_iottocaseprocess" displayName="Alerta de IoT para Processo de Ocorrência" solution="msdyn_ConnectedCustomerService (9.0.20115.1024)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Cotação" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Cotação" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_slaitem_slakpiinstance" displayName="msdyn_slaitem_slakpiinstance" parentSchemaName="slakpiinstance" parentDisplayName="Instância do KPI de SLA" solution="msdynce_ServiceLevelAgreementExtension (9.0.21091.1011)">
+          <package>msdynce_ServiceLevelAgreementAnchor (9.0.21041.1011)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_slaitem_slakpiinstance" displayName="msdyn_slaitem_slakpiinstance" parentSchemaName="slakpiinstance" parentDisplayName="Instância do KPI de SLA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_slaitem_slakpiinstance" displayName="msdyn_slaitem_slakpiinstance" parentSchemaName="slakpiinstance" parentDisplayName="Instância do KPI de SLA" solution="msdynce_ServiceLevelAgreementExtension (9.0.21091.1011)">
+          <package>msdynce_ServiceLevelAgreementAnchor (9.0.21041.1011)</package>
+        </Required>
+        <Dependent type="2" schemaName="msdyn_slaitemidname" parentSchemaName="slakpiinstance" parentDisplayName="Instância do KPI de SLA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_passwordhash" displayName="Hash de Senha" parentSchemaName="contact" parentDisplayName="Contato" solution="MicrosoftIdentity (9.2.2103.1)">
+          <package>StarterPortal (9.2.2103.10)</package>
+        </Required>
+        <Dependent type="93" id="{9c1f2c6c-deee-eb11-94ef-002248367d6d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="businesscard" displayName="Cartão de Visita" parentSchemaName="contact" parentDisplayName="Contato" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="businesscardattributes" displayName="BusinessCardAttributes" parentSchemaName="contact" parentDisplayName="Contato" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contractdetailid" displayName="Linha de Contrato" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contractid" displayName="Contrato" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contractservicelevelcode" displayName="Nível de Serviço" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Data de Criação" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customerid" displayName="Cliente" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="firstresponsebykpiid" displayName="Primeira Resposta por KPI" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="firstresponsebykpiid" displayName="Primeira Resposta por KPI" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="kbarticleid" displayName="Artigo da Base de Dados de Conhecimento" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Proprietário" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="prioritycode" displayName="Prioridade" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="productserialnumber" displayName="Número de Série" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="resolveby" displayName="Resolver por" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="responseby" displayName="Primeira Resposta por" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="routecase" displayName="Encaminhar Ocorrência" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Razão do Status" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subjectid" displayName="Assunto" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="subjectid" displayName="Assunto" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subjectid" displayName="Assunto" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="title" displayName="Título da Ocorrência" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="2" schemaName="title" displayName="Título da Ocorrência" parentSchemaName="incident" parentDisplayName="Ocorrência" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="title" displayName="Título da Ocorrência" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_slaitemid" displayName="SLAItem" parentSchemaName="slakpiinstance" parentDisplayName="Instância do KPI de SLA" solution="msdynce_ServiceLevelAgreementExtension (9.0.21091.1011)">
+          <package>msdynce_ServiceLevelAgreementAnchor (9.0.21041.1011)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_slaitem_slakpiinstance" displayName="msdyn_slaitem_slakpiinstance" parentSchemaName="slakpiinstance" parentDisplayName="Instância do KPI de SLA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todas as Ocorrências do Cliente" displayName="Todas as Ocorrências do Cliente" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001039}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão do contato" parentDisplayName="Contato" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todas as Ocorrências do Cliente" displayName="Todas as Ocorrências do Cliente" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001039}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão da conta" parentDisplayName="Parceiro" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todas as Cotações" displayName="Todas as Cotações" parentSchemaName="quote" parentDisplayName="Cotação" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010013100}">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Minhas Cotações" displayName="Minhas Cotações" parentSchemaName="quote" parentDisplayName="Cotação" solution="msdynce_Sales (9.0.4.0076)" id="{008fbb15-98e9-4c5d-a81a-e685ff8ccc2c}">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contratos Ativos" displayName="Contratos Ativos" parentSchemaName="contract" parentDisplayName="Contrato" solution="msdynce_Service (9.0.5.56)" id="{646de3ee-ebfb-4d19-8a44-4a619505e188}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contratos Ativos" displayName="Contratos Ativos" parentSchemaName="contract" parentDisplayName="Contrato" solution="msdynce_Service (9.0.5.56)" id="{646de3ee-ebfb-4d19-8a44-4a619505e188}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ocorrências Associadas" displayName="Ocorrências Associadas" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)" id="{72210bbb-d9d5-42df-8efd-39395a3cd7a7}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ocorrências Associadas" displayName="Ocorrências Associadas" parentSchemaName="incident" parentDisplayName="Ocorrência" solution="msdynce_Service (9.0.5.56)" id="{72210bbb-d9d5-42df-8efd-39395a3cd7a7}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Linha de Contrato com Alocações" displayName="Linha de Contrato com Alocações" parentSchemaName="contractdetail" parentDisplayName="Linha de Contrato" solution="msdynce_Service (9.0.5.56)" id="{8fa2705c-7e4c-4c0e-b611-4593b35a4c9e}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName=" Formulário Principal" parentDisplayName="Ocorrência" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Linha de Contrato com Alocações" displayName="Linha de Contrato com Alocações" parentSchemaName="contractdetail" parentDisplayName="Linha de Contrato" solution="msdynce_Service (9.0.5.56)" id="{8fa2705c-7e4c-4c0e-b611-4593b35a4c9e}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Direitos da Conta" displayName="Direitos da Conta" parentSchemaName="entitlement" parentDisplayName="Direito" solution="msdynce_Service (9.0.5.56)" id="{961bf8aa-042f-4f4d-bcca-935bfc9a6994}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão da conta" parentDisplayName="Parceiro" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Direitos da Conta" displayName="Direitos da Conta" parentSchemaName="entitlement" parentDisplayName="Direito" solution="msdynce_Service (9.0.5.56)" id="{961bf8aa-042f-4f4d-bcca-935bfc9a6994}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todos os Direitos" displayName="Todos os Direitos" parentSchemaName="entitlement" parentDisplayName="Direito" solution="msdynce_Service (9.0.5.56)" id="{aa69e7e2-913a-4a5a-8609-8ca443554909}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão do contato" parentDisplayName="Contato" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todos os Direitos" displayName="Todos os Direitos" parentSchemaName="entitlement" parentDisplayName="Direito" solution="msdynce_Service (9.0.5.56)" id="{aa69e7e2-913a-4a5a-8609-8ca443554909}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Cotações por Lista de Preços" displayName="Cotações por Lista de Preços" parentSchemaName="quote" parentDisplayName="Cotação" solution="msdynce_Sales (9.0.4.0076)" id="{512436b4-853c-e711-80e0-00155d871bb4}">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Resolver por SLA" parentDisplayName="Instância do KPI de SLA" solution="msdynce_ServiceLevelAgreement (9.0.21091.1011)" id="{19b14c51-3d43-4d56-ab34-49c540bf468c}">
+          <package>msdynce_ServiceLevelAgreementAnchor (9.0.21041.1011)</package>
+        </Required>
+        <Dependent type="60" displayName="ADMINISTRADOR" parentDisplayName="Cotação" id="{491a3c36-f04c-4791-8368-671b36ae7b7a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Resolver por SLA" parentDisplayName="Instância do KPI de SLA" solution="msdynce_ServiceLevelAgreement (9.0.21091.1011)" id="{19b14c51-3d43-4d56-ab34-49c540bf468c}">
+          <package>msdynce_ServiceLevelAgreementAnchor (9.0.21041.1011)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Cotação" id="{fed47387-9677-4297-9c10-31e446d18299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="cartão do contato" parentDisplayName="Contato" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}">
+          <package>msdynce_AppCommonAnchor (9.0.21043.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão do contato" parentDisplayName="Contato" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Painel de Contatos" parentDisplayName="Contato" solution="msdynce_Service (9.0.5.56)" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="cartão da conta" parentDisplayName="Parceiro" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}">
+          <package>msdynce_AppCommonAnchor (9.0.21043.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="cartão da conta" parentDisplayName="Parceiro" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="smt_viaempresa" displayName="Via Empresa" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.21043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Incidente " id="{0f9e62c1-3c01-46b9-b576-358f0ca8ed67}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.2.21091.00126)" />
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.TalkingPointsControl.TalkingPoints" displayName="MscrmControls.TalkingPointsControl.TalkingPoints" solution="msdynce_Talkingpoints (9.0.1.701524)">
+          <package>msdynce_SalesInsightsAnchor (9.0.21043.10000)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msdyn_MscrmControls.TreeView.TreeViewControl" displayName="msdyn_MscrmControls.TreeView.TreeViewControl" solution="msdyn_AssetCommon (1.0.6.37)">
+          <package>msdynce_ServiceAnchor (9.0.21041.1018)</package>
+        </Required>
+        <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

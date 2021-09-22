@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{717adf81-aef2-4b5d-b2d0-19c09c6c9126}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_cities" jump="smt_st_city_name" select="1" icon="1" preview="0">
+        <row name="smt_city" id="smt_cityid">
+          <cell name="smt_st_city_name" width="300" />
+          <cell name="smt_st_code" width="100" />
+          <cell name="smt_stateid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_city">
+          <attribute name="smt_cityid" />
+          <attribute name="smt_st_city_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_st_code" />
+          <attribute name="smt_stateid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição de Consulta de Munícipio " languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

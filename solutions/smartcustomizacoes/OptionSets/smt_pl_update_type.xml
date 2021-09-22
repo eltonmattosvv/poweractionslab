@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="smt_pl_update_type" localizedName="Tipo de Atualização" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Tipo de Atualização" languagecode="1046" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1046" />
+  </Descriptions>
+  <options>
+    <option value="180580000">
+      <labels>
+        <label description="Recebido" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580001">
+      <labels>
+        <label description="Pago" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580002">
+      <labels>
+        <label description="Não pago" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580003">
+      <labels>
+        <label description="Em Transito" languagecode="1046" />
+      </labels>
+    </option>
+  </options>
+</optionset>

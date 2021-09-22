@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fc43211e-6fa4-eb11-b1ac-002248374f2f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{0e36cd6e-6fee-42ef-8b73-f9d826224042}">
+          <labels>
+            <label description="Tab" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{e7a544ad-34f7-4d7f-a9df-961529c81cd6}">
+                  <labels>
+                    <label description="Informações da Conta" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0d7c663b-46e2-413e-a26e-11c1e63e3ecd}" locklevel="0" labelid="{84e1abed-6f3a-4091-991b-839bbb69ffbe}">
+                        <labels>
+                          <label description="Nome da Conta" languagecode="1046" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3951ad26-706d-4c0a-b8d5-1beaf7d965ba}" locklevel="0" labelid="{662c6ed6-4d10-42d2-8a04-63d93dec5630}">
+                        <labels>
+                          <label description="Razão Social" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_company_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_company_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5eec8783-5890-41cd-b86a-75703d0f0269}" locklevel="0" labelid="{2b056ee7-33d0-4e67-91b1-e22701fbb928}">
+                        <labels>
+                          <label description="CNPJ" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_cnpj" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_cnpj" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1b3c34e-a11a-4ae5-9db3-81253975a0e2}" locklevel="0" labelid="{a527b3d5-87d7-46c7-9bb9-dbc973102a77}">
+                        <labels>
+                          <label description="Telefone Principal" languagecode="1046" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34cc077e-4466-43c7-be3e-b90e7ae91f1a}" locklevel="0" labelid="{5226b311-ad37-459f-b2d6-a04b19ebc0bf}">
+                        <labels>
+                          <label description="Email" languagecode="1046" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{f10e5f78-6edd-4835-9709-96595f09c945}">
+                  <labels>
+                    <label description="Section" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{75e30a42-debf-4022-8012-8c4517ab2829}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{faa27a6c-9486-43bd-b633-df96cb052d4e}">
+                  <labels>
+                    <label description="Section" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{be315fca-68a6-44d9-b6ad-2ba323980d10}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="4" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Formulário de Criação Rápida - Conta" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

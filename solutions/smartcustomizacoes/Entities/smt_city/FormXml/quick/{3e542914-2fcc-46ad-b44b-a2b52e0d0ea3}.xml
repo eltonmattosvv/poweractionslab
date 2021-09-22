@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3e542914-2fcc-46ad-b44b-a2b52e0d0ea3}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{886a0378-4b1f-4556-bba9-d14ead35496e}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b198077a-477d-45e3-bde0-71259ccf77d9}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aa1041b3-e0e3-4b48-81cc-c9ffe351e65d}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_city_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_city_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cae5db73-12fe-4d5f-9d2f-764db8f691d8}" locklevel="0">
+                        <labels>
+                          <label description="Código" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_code" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_code" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed9a3fef-9d98-4cb0-b884-a179cc0da04e}" locklevel="0">
+                        <labels>
+                          <label description="Estado" languagecode="1046" />
+                        </labels>
+                        <control id="smt_stateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_stateid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97c5fc7f-958e-4aeb-9b9a-e8bbf75f6205}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

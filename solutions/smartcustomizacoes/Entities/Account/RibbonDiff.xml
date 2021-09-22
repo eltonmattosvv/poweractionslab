@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="smt.AccessChecker.OpenDialog.account.Button.Hide" Location="AccessChecker.OpenDialog.account.Button" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.AddConnection.Hide" Location="Mscrm.Form.account.AddConnection" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.AddToList.Hide" Location="Mscrm.Form.account.AddToList" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.Assign.Hide" Location="Mscrm.Form.account.Assign" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.account.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.account.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.FollowButton.Hide" Location="Mscrm.Form.account.FollowButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.Permissions.Sharing.Hide" Location="Mscrm.Form.account.Permissions.Sharing" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.Reports.Hide" Location="Mscrm.Form.account.Reports" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.RunWorkflow.Hide" Location="Mscrm.Form.account.RunWorkflow" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.SendSelected.Hide" Location="Mscrm.Form.account.SendSelected" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.ViewOrgChart.Hide" Location="Mscrm.Form.account.ViewOrgChart" />
+    <HideCustomAction HideActionId="smt.Mscrm.Form.account.WordTemplate.Hide" Location="Mscrm.Form.account.WordTemplate" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.AddToList.Hide" Location="Mscrm.HomepageGrid.account.AddToList" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Assign.Hide" Location="Mscrm.HomepageGrid.account.Assign" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Chart.New.Hide" Location="Mscrm.HomepageGrid.account.Chart.New" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Charts.Hide" Location="Mscrm.HomepageGrid.account.Charts" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.account.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.account.DocumentTemplate" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.account.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.FollowButton.Hide" Location="Mscrm.HomepageGrid.account.FollowButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.account.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.MergeRecords.Hide" Location="Mscrm.HomepageGrid.account.MergeRecords" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.QuickCampaign.Hide" Location="Mscrm.HomepageGrid.account.QuickCampaign" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.RunReport.Hide" Location="Mscrm.HomepageGrid.account.RunReport" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Send.Hide" Location="Mscrm.HomepageGrid.account.Send" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.Sharing.Hide" Location="Mscrm.HomepageGrid.account.Sharing" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.account.UnfollowButton" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.ViewOrgChart.Hide" Location="Mscrm.HomepageGrid.account.ViewOrgChart" />
+    <HideCustomAction HideActionId="smt.Mscrm.HomepageGrid.account.WordTemplate.Hide" Location="Mscrm.HomepageGrid.account.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

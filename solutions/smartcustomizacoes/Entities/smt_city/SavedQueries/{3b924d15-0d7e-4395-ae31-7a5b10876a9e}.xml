@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3b924d15-0d7e-4395-ae31-7a5b10876a9e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_city_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_cityid">
+          <cell name="smt_st_city_name" width="300" />
+          <cell name="smt_st_code" width="100" />
+          <cell name="smt_stateid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_city">
+          <attribute name="smt_cityid" />
+          <attribute name="smt_st_city_name" />
+          <order attribute="smt_st_city_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smt_st_city_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="smt_st_code" />
+          <attribute name="smt_stateid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Localização Rápida de Munícipios Ativo(a)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

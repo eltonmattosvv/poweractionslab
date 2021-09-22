@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0accc312-12e3-eb11-bacb-000d3ac197ae}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
+        <row name="result" id="contactid">
+          <cell name="parentcustomerid" width="144" />
+          <cell name="fullname" width="200" />
+          <cell name="emailaddress1" width="217" />
+          <cell name="mobilephone" width="125" />
+          <cell name="telephone1" width="126" />
+          <cell name="smt_mpl_shopping_portal_access" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="contact">
+          <attribute name="fullname" />
+          <attribute name="contactid" />
+          <attribute name="parentcustomerid" />
+          <attribute name="emailaddress1" />
+          <attribute name="mobilephone" />
+          <attribute name="telephone1" />
+          <attribute name="smt_mpl_shopping_portal_access" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="eq" value="2" />
+          </filter>
+          <order attribute="fullname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="CONTATOS INATIVOS" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

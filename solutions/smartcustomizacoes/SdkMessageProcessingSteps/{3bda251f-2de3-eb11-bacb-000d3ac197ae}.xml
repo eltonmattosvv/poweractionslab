@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarCarrinho: smt_PortalGerenciarCarrinho of any Entity" SdkMessageProcessingStepId="{3bda251f-2de3-eb11-bacb-000d3ac197ae}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>feaff9cb-2be3-eb11-bacb-000d3ac197ae</SdkMessageId>
+  <PluginTypeName>CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarCarrinho, ViaVarejoPortalParceiros.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4</PluginTypeName>
+  <PluginTypeId>1f663c19-a22b-4d5f-9fa6-a9f66707bc85</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CRM.ViaVarejoPortalParceiros.Extends.Plugins._Global.PortalGerenciarCarrinho: smt_PortalGerenciarCarrinho of any Entity</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

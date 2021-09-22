@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{76b27c90-b0d5-eb11-bacc-00224836eeec}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab name="detalhes" id="{a3180016-054b-c983-4d3c-85a038c387a4}" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true" labelid="{d515f531-3805-4020-9334-be17f8a4cba0}">
+          <labels>
+            <label description="Comentários" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="comentarios" showlabel="false" showbar="false" locklevel="0" id="{c7004326-0d8c-7e69-0b93-b6b5c5e8143c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{3efe461d-94a0-4060-a942-04f8ae8866c7}">
+                  <labels>
+                    <label description="Comentários" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75c839a0-b9b7-e751-7775-771eb61232ec}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d3a340e-b0a1-54c4-d277-3e52866415bb}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Texto da Anotação" languagecode="1046" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{a8a01046-4618-2be7-0089-d4d7006ce5c4}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>tl_comentarios</UClientUniqueName>
+                            <UClientModules>Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientEnableWhatsNewFilter>false</UClientEnableWhatsNewFilter>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8fd2639f-cd51-4c36-a10d-1ed15f7e854a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2cf944a5-28a7-4ad4-a967-2441352b66ef}" showlabel="false" labelid="{7f7fd18d-cad8-4fc5-8466-10ab80672308}">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{b1107b47-6dad-9902-05a6-8c5d6c02ee3e}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Descrição" languagecode="1046" />
+              </labels>
+              <control id="header_smt_st_descricao" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smt_st_descricao" disabled="false" />
+            </cell>
+            <cell id="{bb8ed614-6741-39cd-475b-4ae64517373d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Título" languagecode="1046" />
+              </labels>
+              <control id="header_smt_st_titulo" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_titulo" disabled="false" />
+            </cell>
+            <cell id="{6b361437-dc13-4029-87e2-0c12b1b71302}" labelid="{788bd2b5-d5bf-474d-a555-24bc93435014}" visible="false">
+              <labels>
+                <label description="Proprietário" languagecode="1046" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4a8a1d91-4174-4715-90e5-82d4be870295}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9b476a67-f0a0-4df2-b0e8-0d82e143b8d4}" showlabel="false" labelid="{8c394a97-ace4-40e0-bb39-e5e8bd83b0ed}">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{e2232876-8163-480b-88da-7b0f9a662dce}" showlabel="false" labelid="{85b7817d-ddc9-4513-8d41-375723eca15f}">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{65bc796c-b238-4463-a6af-f3e1f2702bd1}" showlabel="false" labelid="{75e92312-f7e9-45ac-a1e6-b6447fa54854}">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1046" Text="Comum" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1046" Text="Vendas" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1046" Text="Serviços" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1046" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1046" Text="Sessões de Processo" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Formulário Editar - Portal" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

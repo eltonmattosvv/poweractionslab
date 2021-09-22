@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="smt_mpl_shopping_portal_access" localizedName="Acesso do Portal de Compras" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Acesso do Portal de Compras" languagecode="1046" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1046" />
+  </Descriptions>
+  <options>
+    <option value="180580000">
+      <labels>
+        <label description="Administrador" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580001">
+      <labels>
+        <label description="Cotador" languagecode="1046" />
+      </labels>
+    </option>
+    <option value="180580002">
+      <labels>
+        <label description="Comprador" languagecode="1046" />
+      </labels>
+    </option>
+  </options>
+</optionset>

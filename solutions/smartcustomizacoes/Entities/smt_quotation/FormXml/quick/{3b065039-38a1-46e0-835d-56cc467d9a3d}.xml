@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3b065039-38a1-46e0-835d-56cc467d9a3d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{930432ce-0081-4be6-83bc-70a9f7f9acbb}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Guia" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{19da1853-3053-42ff-8fd0-2955df2f9e48}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec8376b1-b196-8ccd-12dd-65980ceb1c5a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bandeira" languagecode="1046" />
+                        </labels>
+                        <control id="smt_flagid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_flagid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26756b16-9a2a-7ada-7e4e-03824dceb9b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Validade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_dt_validity" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="smt_dt_validity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0de2cd73-b370-87db-8132-dd908849479c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Criador da Cotação" languagecode="1046" />
+                        </labels>
+                        <control id="smt_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_contactid" disabled="false" uniqueid="{53b82588-10c2-e5c4-a7b4-14e600c9d45e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Visualização rápida - Cotação para Pedido" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

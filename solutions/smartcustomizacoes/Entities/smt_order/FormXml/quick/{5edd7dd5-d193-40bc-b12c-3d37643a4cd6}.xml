@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5edd7dd5-d193-40bc-b12c-3d37643a4cd6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{f553aeab-7e58-44bf-95b4-51f570dcff98}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f2798a4d-54c3-441e-8ca6-923cf4cb01c7}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7c9357ab-b4ee-45fb-8614-0eebf08e099a}" visible="true">
+                        <labels>
+                          <label description="Id" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_order_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_order_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{308d2905-12da-4d2b-a39c-3b6b25eca854}" locklevel="1">
+                        <labels>
+                          <label description="Id Admin" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_admin_id" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_admin_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4f607cd-6542-45d7-8275-223bdfa5fde5}" locklevel="0">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_accountid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62d37321-33fd-442c-a8bd-b762a598e68a}" locklevel="0">
+                        <labels>
+                          <label description="Contato" languagecode="1046" />
+                        </labels>
+                        <control id="smt_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{08d49b87-765d-4700-8ae4-a87c6639a1b2}" locklevel="1">
+                        <labels>
+                          <label description="Cotação" languagecode="1046" />
+                        </labels>
+                        <control id="smt_quotationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_quotationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9cc9125e-68ac-4cbb-b229-041c7f7b22d2}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

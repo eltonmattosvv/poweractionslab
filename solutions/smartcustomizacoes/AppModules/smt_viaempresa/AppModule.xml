@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>smt_viaempresa</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="smt_viaempresa" />
+    <AppModuleComponent type="29" id="{ab81c1af-1a45-48d9-8133-3edc033dbeef}" />
+    <AppModuleComponent type="60" id="{39c97f05-f0a8-eb11-9442-000d3ac1119d}" />
+    <AppModuleComponent type="60" id="{ccebe6ab-f2a8-eb11-9442-000d3ac1119d}" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotalert" />
+    <AppModuleComponent type="1" schemaName="msdyn_iottocaseprocess" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="smt_order_update" />
+    <AppModuleComponent type="1" schemaName="smt_azb2c_access_security_group" />
+    <AppModuleComponent type="1" schemaName="smt_flag" />
+    <AppModuleComponent type="1" schemaName="smt_cart" />
+    <AppModuleComponent type="1" schemaName="actioncard" />
+    <AppModuleComponent type="26" id="{92afd454-0f2e-4397-a1c8-05e37c6ad699}" />
+    <AppModuleComponent type="1" schemaName="category" />
+    <AppModuleComponent type="1" schemaName="smt_category" />
+    <AppModuleComponent type="1" schemaName="connection" />
+    <AppModuleComponent type="26" id="{23fb1036-e41d-4d75-8aa7-27569b5b6512}" />
+    <AppModuleComponent type="1" schemaName="smt_ab2c_configuration" />
+    <AppModuleComponent type="1" schemaName="smt_configuracoesdositeviaempresas" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{77d2ee1d-6da4-eb11-b1ac-002248374f2f}" />
+    <AppModuleComponent type="60" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
+    <AppModuleComponent type="26" id="{0accc312-12e3-eb11-bacb-000d3ac197ae}" />
+    <AppModuleComponent type="26" id="{1be0ead0-9ba6-eb11-9442-000d3ac11d26}" />
+    <AppModuleComponent type="26" id="{ac17eefb-b0a7-eb11-9442-000d3ac11d26}" />
+    <AppModuleComponent type="59" id="{2ff3ebea-6310-4dde-b3a1-e1144ea42b7b}" />
+    <AppModuleComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+    <AppModuleComponent type="1" schemaName="contract" />
+    <AppModuleComponent type="26" id="{646de3ee-ebfb-4d19-8a44-4a619505e188}" />
+    <AppModuleComponent type="1" schemaName="quote" />
+    <AppModuleComponent type="1" schemaName="smt_quotation" />
+    <AppModuleComponent type="1" schemaName="smt_credencial_azure_b2c" />
+    <AppModuleComponent type="1" schemaName="smt_department" />
+    <AppModuleComponent type="1" schemaName="entitlement" />
+    <AppModuleComponent type="26" id="{961bf8aa-042f-4f4d-bcca-935bfc9a6994}" />
+    <AppModuleComponent type="26" id="{aa69e7e2-913a-4a5a-8609-8ca443554909}" />
+    <AppModuleComponent type="1" schemaName="smt_doubts_faq" />
+    <AppModuleComponent type="1" schemaName="smt_address" />
+    <AppModuleComponent type="1" schemaName="smt_delivery" />
+    <AppModuleComponent type="1" schemaName="smt_state" />
+    <AppModuleComponent type="1" schemaName="smt_dynamic_information" />
+    <AppModuleComponent type="1" schemaName="smt_state_registrations" />
+    <AppModuleComponent type="1" schemaName="smt_quotation_item" />
+    <AppModuleComponent type="1" schemaName="smt_order_item" />
+    <AppModuleComponent type="1" schemaName="contractdetail" />
+    <AppModuleComponent type="26" id="{8fa2705c-7e4c-4c0e-b611-4593b35a4c9e}" />
+    <AppModuleComponent type="1" schemaName="smt_city" />
+    <AppModuleComponent type="1" schemaName="newprocess" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="60" id="{d1b2485d-f4a1-eb11-b1ac-0022483741ab}" />
+    <AppModuleComponent type="26" id="{72210bbb-d9d5-42df-8efd-39395a3cd7a7}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+    <AppModuleComponent type="60" id="{fc43211e-6fa4-eb11-b1ac-002248374f2f}" />
+    <AppModuleComponent type="60" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
+    <AppModuleComponent type="1" schemaName="smt_order" />
+    <AppModuleComponent type="1" schemaName="smt_state_registration_status" />
+    <AppModuleComponent type="1" schemaName="smt_password_change_token" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{c22b448b-86a3-eb11-b1ac-0022483741ab}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Via Empresa" languagecode="1046" />
+  </LocalizedNames>
+</AppModule>

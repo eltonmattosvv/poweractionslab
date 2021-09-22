@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cba7257b-a299-4260-b6d4-eea751aa3aa1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_faq_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_doubts_faqid">
+          <cell name="smt_subjectid" width="100" />
+          <cell name="smt_st_question" width="100" />
+          <cell name="smt_st_answer" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_doubts_faq">
+          <attribute name="smt_doubts_faqid" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_subjectid" />
+          <attribute name="smt_st_question" />
+          <attribute name="smt_st_answer" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Dúvidas FAQ Ativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

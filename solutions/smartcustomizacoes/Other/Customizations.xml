@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <Slas />
+  <Dashboards />
+  <WebResources />
+  <CustomControls />
+  <SolutionPluginAssemblies />
+  <SdkMessageProcessingSteps />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <msdyn_slakpis>
+    <msdyn_slakpi msdyn_slakpiid="95c0321c-c1a6-eb11-9442-000d3ac11d26">
+      <iscustomizable>1</iscustomizable>
+      <msdyn_advancedpauseconfiguration>0</msdyn_advancedpauseconfiguration>
+      <msdyn_applicablefromfield>createdon</msdyn_applicablefromfield>
+      <msdyn_entityname>smt_quotation</msdyn_entityname>
+      <msdyn_kpifield>smt_instance_sla_comercial</msdyn_kpifield>
+      <msdyn_name>KPI do SLA Comercial</msdyn_name>
+      <statecode>1</statecode>
+      <statuscode>2</statuscode>
+    </msdyn_slakpi>
+    <msdyn_slakpi msdyn_slakpiid="9eb337cd-c4a6-eb11-9442-000d3ac11d26">
+      <iscustomizable>1</iscustomizable>
+      <msdyn_advancedpauseconfiguration>0</msdyn_advancedpauseconfiguration>
+      <msdyn_applicablefromfield>createdon</msdyn_applicablefromfield>
+      <msdyn_entityname>smt_quotation</msdyn_entityname>
+      <msdyn_kpifield>smt_instance_sla_logistico</msdyn_kpifield>
+      <msdyn_name>KPI SLA Logístico</msdyn_name>
+      <statecode>1</statecode>
+      <statuscode>2</statuscode>
+    </msdyn_slakpi>
+  </msdyn_slakpis>
+  <Languages>
+    <Language>1046</Language>
+  </Languages>
+</ImportExportXml>

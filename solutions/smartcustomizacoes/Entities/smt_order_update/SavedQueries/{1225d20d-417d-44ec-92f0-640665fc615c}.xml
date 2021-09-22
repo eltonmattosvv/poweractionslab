@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1225d20d-417d-44ec-92f0-640665fc615c}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_order_updates" jump="smt_st_order_update_name" select="1" icon="1" preview="1">
+        <row name="smt_order_update" id="smt_order_updateid">
+          <cell name="smt_orderid" width="176" />
+          <cell name="smt_st_message" width="210" />
+          <cell name="smt_pl_update_type" width="189" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_order_update">
+          <attribute name="smt_order_updateid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_orderid" />
+          <attribute name="smt_st_message" />
+          <attribute name="smt_pl_update_type" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição Associada de Atualização do Pedido" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="VV.B2B.ViaEmpresas.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginAssemblyId="5b8769a8-ab9b-4dfc-a023-08b11d51f90f" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/VVB2BViaEmpresasExtends-5B8769A8-AB9B-4DFC-A023-08B11D51F90F/VVB2BViaEmpresasExtends.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="VV.B2B.ViaEmpresas.Extends.Plugins.TokenDeAcesso.PreOperation, VV.B2B.ViaEmpresas.Extends, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c40bb1e1882b31d4" PluginTypeId="e11ab39f-dce1-46d5-9694-df3711cb9657" Name="VV.B2B.ViaEmpresas.Extends.Plugins.TokenDeAcesso.PreOperation">
+      <FriendlyName>d79cdd5c-28ec-4c18-9579-e2bcf6aa7889</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

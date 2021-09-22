@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="PERFORMANCE" languagecode="1046" />
+  </LocalizedNames>
+  <FormId>{ccebe6ab-f2a8-eb11-9442-000d3ac1119d}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{29acbb69-cf92-43d4-b42e-ab0ae415db17}">
+            <labels>
+              <label description="Guia" languagecode="1046" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{98157fb7-febe-40c3-89ab-f87406690518}">
+                    <labels>
+                      <label description="Seção" languagecode="1046" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="3" rowspan="12" showlabel="false" id="{2474612c-6dba-4d36-8b28-f83a2173b0ca}" auto="false">
+                          <labels>
+                            <label description="Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Componenta68535f" uniqueid="{c9ce624b-a886-936e-849e-2e00d4de5606}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>smt_order</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{4E92DFC5-E6AB-4C06-BE37-5C8597F21E80}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{1E2A3794-F1A8-EB11-9442-000D3AC1119D}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{99d0e2cb-17e7-1176-0171-46d448e55d58}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Item do Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Component4827567" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{0495c126-00bc-b398-4c8a-6aab5b66c79e}">
+                            <parameters>
+                              <ViewId>{49DF4C0B-1251-42A1-9E22-0FE633A66E91}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>smt_order_item</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{B75A23B5-F0A8-EB11-9442-000D3AC1119D}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{13191267-e4a3-7a75-8d66-2910dc4ecd4d}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Item do Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Component9630118" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <ViewId>{49DF4C0B-1251-42A1-9E22-0FE633A66E91}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>smt_order_item</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{42D38BE6-F0A8-EB11-9442-000D3AC1119D}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{01fb8c1b-4920-4d8c-93b9-b050fed2240e}" auto="false">
+                          <labels>
+                            <label description="Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Component83c1548" uniqueid="{48684e0c-dcaa-c374-a31c-0033db87cdb4}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>smt_order</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                              <ViewId>{4E92DFC5-E6AB-4C06-BE37-5C8597F21E80}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{22E3B1A2-84AE-EB11-8236-002248365FE2}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{b1bcdd8c-4982-488c-e02e-5c186586dd5e}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Item do Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Component7016588" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{85db5016-b466-3a6a-0964-1a5cce4ddecb}">
+                            <parameters>
+                              <ViewId>{49DF4C0B-1251-42A1-9E22-0FE633A66E91}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>smt_order_item</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds>{49DF4C0B-1251-42A1-9E22-0FE633A66E91}</ViewIds>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{152B584B-F0A8-EB11-9442-000D3AC1119D}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{e088212a-7645-312d-0dda-43e86593add4}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Item do Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Component9418572" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{3103c426-3449-41e3-c994-11114268b029}">
+                            <parameters>
+                              <ViewId>{49DF4C0B-1251-42A1-9E22-0FE633A66E91}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>smt_order_item</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{2481B860-F0A8-EB11-9442-000D3AC1119D}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{47c13d36-39b8-8ceb-75a6-7dd6302c02ba}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Pedido" languagecode="1046" />
+                          </labels>
+                          <control id="Component440332" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{ba4be9a5-54e6-4b96-7673-d7b4bc438e66}">
+                            <parameters>
+                              <ViewId>{4E92DFC5-E6AB-4C06-BE37-5C8597F21E80}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>smt_order</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{D785CA46-F1A8-EB11-9442-000D3AC1119D}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

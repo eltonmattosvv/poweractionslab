@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{21d48e61-eb89-4392-998e-1dd194b4a036}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_order_items" jump="smt_st_order_item_name" select="1" icon="1" preview="0">
+        <row name="smt_order_item" id="smt_order_itemid">
+          <cell name="smt_st_product_id" width="141" />
+          <cell name="smt_st_sku" width="152" />
+          <cell name="smt_st_order_item_name" width="214" />
+          <cell name="smt_mn_unitary_value" width="124" />
+          <cell name="smt_int_quantity" width="93" />
+          <cell name="smt_c_mn_total_value" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_order_item">
+          <attribute name="smt_order_itemid" />
+          <attribute name="smt_st_order_item_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_mn_unitary_value" />
+          <attribute name="smt_int_quantity" />
+          <order attribute="smt_st_order_item_name" descending="false" />
+          <attribute name="smt_c_mn_total_value" />
+          <attribute name="smt_st_sku" />
+          <attribute name="smt_st_product_id" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição de Consulta de Item do pedido" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

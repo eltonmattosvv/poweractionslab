@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2354e831-52a2-4c8b-9dc9-61ae07778cda}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_department_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_departmentid">
+          <cell name="smt_st_department_code" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smt_st_department_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_department">
+          <attribute name="smt_st_department_name" />
+          <order attribute="smt_st_department_code" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_st_department_code" />
+          <attribute name="smt_departmentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="TODOS OS DEPARTAMENTOS" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

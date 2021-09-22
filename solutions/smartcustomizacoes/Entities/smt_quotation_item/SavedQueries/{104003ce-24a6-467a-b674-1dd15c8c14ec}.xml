@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{104003ce-24a6-467a-b674-1dd15c8c14ec}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_quotation_items" jump="smt_st_quotation_item_name" select="1" icon="1" preview="1">
+        <row name="smt_quotation_item" id="smt_quotation_itemid">
+          <cell name="smt_st_product_id" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smt_st_sku" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smt_st_quotation_item_name" width="216" />
+          <cell name="smt_int_quantity" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smt_mn_unitary_value" width="100" />
+          <cell name="smt_c_mn_total_value" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_quotation_item">
+          <attribute name="smt_quotation_itemid" />
+          <attribute name="smt_st_quotation_item_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_mn_unitary_value" />
+          <attribute name="smt_int_quantity" />
+          <attribute name="smt_c_mn_total_value" />
+          <attribute name="smt_st_sku" />
+          <attribute name="smt_st_product_id" />
+          <order attribute="smt_st_quotation_item_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição Associada de Item da cotação" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

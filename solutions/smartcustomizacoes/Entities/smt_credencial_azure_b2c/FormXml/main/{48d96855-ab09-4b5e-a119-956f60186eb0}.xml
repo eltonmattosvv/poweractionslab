@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{48d96855-ab09-4b5e-a119-956f60186eb0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{56af7854-138d-4cb1-9251-a5297913b5ca}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7542dff3-ecf2-40ce-bd7b-948f3f8cdc04}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d56c036c-3483-42ac-8153-9018ff883235}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_name" uniqueid="{e1d565e1-1357-3813-b2ec-e75913427682}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d573d387-1579-4371-5890-1963b4455633}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="É Padrão" languagecode="1046" />
+                        </labels>
+                        <control id="smt_bl_padrao" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smt_bl_padrao" disabled="false" uniqueid="{04026bba-419d-22c6-1e29-5725831e9cdd}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b27a9e8b-e791-8591-5a72-bec1c7dc36c5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Id do Aplicativo de Extensões" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_idaplicativoextensoes" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_idaplicativoextensoes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e73a99a0-ebd0-2638-7cb5-917c8410cd93}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Id do Cliente" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_idcliente" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_idcliente" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{643e64a4-3998-a975-e422-b691765426ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Id do Tenant" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_idtenant" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_idtenant" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ade8baad-3cab-9253-2864-9c268a82e25c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Id Secreto do Aplicativo" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_idsecretoaplicativo" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_idsecretoaplicativo" disabled="false" uniqueid="{58e0d271-a77c-1c22-532c-2bd23db561b2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3b17ca0-7257-e451-c097-80707210378c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Escopo" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_escopo" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="smt_st_escopo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c0d34db-1c15-012e-ca99-23a7b553b258}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Domino do Tenant" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_domino" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_domino" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{56af7854-138d-4cb1-9251-a5297913b5ca}_section_2" showlabel="false" showbar="false" locklevel="0" id="{21819785-91c5-cd44-4693-765c26950c7b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e83259c0-c4c0-c971-6703-7d4d3b626d79}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Login Policy" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_login_policy" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="smt_st_login_policy" disabled="false" uniqueid="{9720787e-5214-4126-114e-84234616e292}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57dce09d-9c03-7855-41ad-e58a95cee5aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Login Policy" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_loginpolicy" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_loginpolicy" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e11717a-18e8-727a-aab5-333e7b74a572}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Provedor de Identidade" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_identity_provider" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_identity_provider" disabled="false" uniqueid="{a4391a87-4e3e-5086-da98-77000a9455b3}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{56af7854-138d-4cb1-9251-a5297913b5ca}_section_3" showlabel="false" showbar="false" locklevel="0" id="{82237c46-7198-807c-cecd-c03301907032}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{641cc61d-5dd7-40e2-8e1e-29fe2ae36294}" locklevel="0">
+                        <labels>
+                          <label description="URL Portal" languagecode="1046" />
+                        </labels>
+                        <control id="smt_url_portal" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="smt_url_portal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{357ff31b-7a2e-464e-9a0c-8b922d530dfd}" locklevel="0">
+                        <labels>
+                          <label description="Remetente E-mail" languagecode="1046" />
+                        </labels>
+                        <control id="smt_lp_remetente_email" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_lp_remetente_email" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{623a1f99-fd6e-47cc-b57e-2d1c4376e473}" columns="111">
+        <rows>
+          <row>
+            <cell id="{4711404b-ade0-454c-b774-a8e9a4a5f279}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{294f38d3-a523-43d3-a161-2bece05a98ec}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{371960a3-de9d-1bb7-a808-963b973be212}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Proprietário" languagecode="1046" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1046" Text="Comum" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1046" Text="Vendas" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1046" Text="Serviços" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1046" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1046" Text="Sessões de Processo" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{f71e3b64-f571-4aa8-b40d-790a4cb56df7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6a15d7b7-561b-469a-ba46-efd4a739e79b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{89e69de5-2161-41a0-afb7-85af67a37ee7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{6a9fe82c-5a86-4638-a9ce-59dd8dd259a3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

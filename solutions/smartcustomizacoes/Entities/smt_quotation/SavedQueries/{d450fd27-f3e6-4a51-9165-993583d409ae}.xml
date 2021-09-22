@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d450fd27-f3e6-4a51-9165-993583d409ae}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smt_st_quotation_name" select="1" icon="1" preview="1">
+        <row name="result" id="smt_quotationid">
+          <cell name="smt_st_quotation_name" width="227" />
+          <cell name="createdon" width="125" />
+          <cell name="smt_flagid" width="100" />
+          <cell name="smt_accountid" width="100" />
+          <cell name="smt_contactid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_quotation">
+          <attribute name="smt_quotationid" />
+          <attribute name="smt_st_quotation_name" />
+          <attribute name="createdon" />
+          <order attribute="smt_st_quotation_name" descending="false" />
+          <attribute name="smt_flagid" />
+          <attribute name="smt_accountid" />
+          <attribute name="smt_contactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição de Localização Avançada de Cotação" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

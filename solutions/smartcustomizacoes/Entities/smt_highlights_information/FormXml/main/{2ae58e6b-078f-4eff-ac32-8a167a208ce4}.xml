@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2ae58e6b-078f-4eff-ac32-8a167a208ce4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{900ea25c-7a2f-41c1-9c33-eef7145498ec}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2bcf08f0-2e8e-4158-ab32-4d9ee74f07d1}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b0ba0c4e-fc78-4195-b212-efa0f0063e5b}">
+                        <labels>
+                          <label description="Título do Destaque" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_highlights_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_highlights_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{948b2842-e121-4b8c-8f61-b8042c61dec6}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb52e078-5ddf-4e2d-b618-d4de1caf297e}" locklevel="0">
+                        <labels>
+                          <label description="URL dos Produtos" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_product_url" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_product_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a88bd221-6669-4b10-8b64-1f2fc47f6a49}" locklevel="0">
+                        <labels>
+                          <label description="Filtro das Categorias" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_category_filter" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_category_filter" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{525fd3d6-caba-42c4-8dbe-e79751661d20}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cc55da6f-d317-4564-b72e-e267ed0297d0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{5652cf59-fdf6-4273-87ee-b5bc0767c812}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{7c4db698-5fb7-40c3-ae69-658a24a92bd1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{9b53fdb0-0305-4898-b6d1-0d291411d8e2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8badb5ce-fda6-4530-947b-d93a54f4cf95}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{ee4f1e7c-3556-473f-a98e-a9f21295aa31}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{dae5807b-6be3-4501-83bd-a6c577a6f1dd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para essa entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

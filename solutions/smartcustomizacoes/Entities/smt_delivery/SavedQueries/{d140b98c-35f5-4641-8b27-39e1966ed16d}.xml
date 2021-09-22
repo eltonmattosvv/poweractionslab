@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d140b98c-35f5-4641-8b27-39e1966ed16d}</savedqueryid>
+    <layoutxml>
+      <grid name="smt_deliveries" jump="smt_st_delivery_name" select="1" icon="1" preview="0">
+        <row name="smt_delivery" id="smt_deliveryid">
+          <cell name="smt_st_tracking_code" width="175" />
+          <cell name="smt_orderid" width="161" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smt_delivery">
+          <attribute name="smt_deliveryid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smt_st_tracking_code" />
+          <attribute name="smt_orderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição de Consulta de Entrega" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

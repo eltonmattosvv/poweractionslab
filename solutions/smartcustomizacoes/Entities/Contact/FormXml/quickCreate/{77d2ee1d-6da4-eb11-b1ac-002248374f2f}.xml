@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{77d2ee1d-6da4-eb11-b1ac-002248374f2f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{075d6680-ea0e-4cae-af40-69a25f297eb8}">
+          <labels>
+            <label description="Tab" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="principais" columns="1" showlabel="true" showbar="true" IsUserDefined="0" labelwidth="130" labelid="{0a7da433-8e87-48d0-ba7f-57c51743f414}" locklevel="0" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="PRINCIPAIS" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d1bc0a00-a2aa-33d6-cd8a-55b91e240546}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nome da Empresa" languagecode="1046" />
+                        </labels>
+                        <control id="parentcustomerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcustomerid" disabled="true" uniqueid="{a284ed40-7de8-cb14-4287-7da63d8e449a}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19ab0271-458c-410c-8d3b-bac2fdea7951}" locklevel="0" labelid="{daf8f37b-0ca0-4500-a8ef-a4a8813a278a}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3179fffd-d2fb-436f-9f27-8584054a92ca}" locklevel="0" labelid="{db8c53b4-7c13-45b0-9680-b046f4fd63f7}">
+                        <labels>
+                          <label description="Sobrenome" languagecode="1046" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" uniqueid="{b851c310-3790-bba3-0eec-71079a885acc}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39ded104-335d-869a-9a25-d1a3c4786c13}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1046" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd2d4a0c-b5d7-4dea-bd8d-ae6340032790}" locklevel="0" labelid="{0fa244fb-1b93-4370-a14a-94e501b3015f}">
+                        <labels>
+                          <label description="Login" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_login" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_login" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed0544a1-be53-4fad-83ff-2d8d2742da81}" locklevel="0" labelid="{b307ad79-0d6f-4a2f-a2c2-c47187b1ecdb}">
+                        <labels>
+                          <label description="Acessos Portal de Compras" languagecode="1046" />
+                        </labels>
+                        <control id="smt_mpl_shopping_portal_access" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="smt_mpl_shopping_portal_access" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{db5078fe-6bf1-4679-b21c-5434d8df7f19}" locklevel="0" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{e7c8f92c-08ff-48aa-825c-51ffc0893c7a}" labelid="{8ee9cb73-d2cc-4945-8854-48c5e53c4883}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{17965e62-c577-4407-8d41-35ada035c3eb}" locklevel="0" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{8aa94d25-5de8-4626-a170-52f1d7274392}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="CRIAÇÃO RÁPIDA" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

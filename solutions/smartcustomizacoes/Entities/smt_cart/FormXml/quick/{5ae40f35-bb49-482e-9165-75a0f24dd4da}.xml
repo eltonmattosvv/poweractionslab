@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5ae40f35-bb49-482e-9165-75a0f24dd4da}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab verticallayout="true" id="{0f265c4c-5b86-4b69-85ab-2f2730f098b8}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{976e2f4d-2b40-4485-b09d-3872d2965468}" name="{976e2f4d-2b40-4485-b09d-3872d2965468}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" visible="false">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{37eb42b3-d274-4ac9-8de0-e2e6b8da97a2}" visible="false">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_cart_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smt_st_cart_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1dcdb723-aba0-4f27-873c-d09b5c088bed}" visible="false">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{beb03734-9425-4dd1-b4f8-34a0bf8ce6d9}" locklevel="0">
+                        <labels>
+                          <label description="Id" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_id" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47ce29a2-fa18-4919-96ce-cbf8058831bb}" locklevel="0">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                        </labels>
+                        <control id="smt_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_accountid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be389551-a9dd-4afb-8c91-35165d9dc701}" locklevel="0">
+                        <labels>
+                          <label description="Contato" languagecode="1046" />
+                        </labels>
+                        <control id="smt_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1e9faca-d258-4950-933e-424f1ea21429}" locklevel="0">
+                        <labels>
+                          <label description="Campanha" languagecode="1046" />
+                        </labels>
+                        <control id="smt_st_campaign" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="smt_st_campaign" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f99d5152-8899-49c0-a199-52722f9ac099}" locklevel="0">
+                        <labels>
+                          <label description="Endereço de entrega" languagecode="1046" />
+                        </labels>
+                        <control id="smt_delivery_addressid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_delivery_addressid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f5d52102-ae21-427c-b710-70f6fafa6b84}" locklevel="0">
+                        <labels>
+                          <label description="Endereço de faturamento" languagecode="1046" />
+                        </labels>
+                        <control id="smt_billing_addressid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smt_billing_addressid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="VISUALIZAÇÃO RÁPIDA (IGNORAR)" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

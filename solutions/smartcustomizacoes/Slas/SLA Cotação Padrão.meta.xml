@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sla SLAId="6e2439c2-bba6-eb11-9442-000d3ac11d26" Name="SLA Cotação Padrão" PrimaryEntityLogicalName="smt_quotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SLAId>{6e2439c2-bba6-eb11-9442-000d3ac11d26}</SLAId>
+  <ApplicableFrom>NA</ApplicableFrom>
+  <Name>SLA Cotação Padrão</Name>
+  <AllowPauseResume>0</AllowPauseResume>
+  <SLAType>1</SLAType>
+  <SLAVersion>100000001</SLAVersion>
+  <SlaItems>
+    <SlaItem slaitemid="66e88857-c1a6-eb11-9442-000d3ac11d26" name="Item SLA Comercial">
+      <slaid>{6e2439c2-bba6-eb11-9442-000d3ac11d26}</slaid>
+      <slaitemid>{66e88857-c1a6-eb11-9442-000d3ac11d26}</slaitemid>
+      <name>Item SLA Comercial</name>
+      <applicablewhenxml>&lt;fetch version="1.0" output-format="xml-platform" mapping="logical"&gt;
+    &lt;entity name="smt_quotation"&gt;
+        &lt;filter type="and"&gt;
+            &lt;link-entity name="smt_cart" link-type="any" from="smt_cartid" to="smt_cartid"&gt;
+                &lt;filter type="and"&gt;
+                    &lt;condition attribute="smt_bo_special_discount" operator="eq" value="1"/&gt;
+                &lt;/filter&gt;
+            &lt;/link-entity&gt;
+        &lt;/filter&gt;
+    &lt;/entity&gt;
+&lt;/fetch&gt;</applicablewhenxml>
+      <successconditionsxml>&lt;fetch version="1.0" output-format="xml-platform" mapping="logical"&gt;
+    &lt;entity name="smt_quotation"&gt;
+        &lt;filter type="and"&gt;
+            &lt;condition attribute="statuscode" operator="in"&gt;
+                &lt;value&gt;180580002&lt;/value&gt;
+                &lt;value&gt;180580000&lt;/value&gt;
+            &lt;/condition&gt;
+        &lt;/filter&gt;
+    &lt;/entity&gt;
+&lt;/fetch&gt;</successconditionsxml>
+      <sequencenumber>1</sequencenumber>
+      <failureafter>4320</failureafter>
+      <warnafter>2880</warnafter>
+      <allowpauseresume>True</allowpauseresume>
+      <applicableentity>smt_quotation</applicableentity>
+      <msdyn_slakpiid>95c0321c-c1a6-eb11-9442-000d3ac11d26</msdyn_slakpiid>
+      <changedattributelist>statuscode,createdon,slaid,entitlementid,customerid</changedattributelist>
+      <msdyn_advancedpauseconfiguration>False</msdyn_advancedpauseconfiguration>
+    </SlaItem>
+    <SlaItem slaitemid="e9843a18-c5a6-eb11-9442-000d3ac11d26" name="Item SLA Logístico">
+      <slaid>{6e2439c2-bba6-eb11-9442-000d3ac11d26}</slaid>
+      <slaitemid>{e9843a18-c5a6-eb11-9442-000d3ac11d26}</slaitemid>
+      <name>Item SLA Logístico</name>
+      <applicablewhenxml>&lt;fetch version="1.0" output-format="xml-platform" mapping="logical"&gt;&lt;entity name="smt_quotation"&gt;&lt;/entity&gt;&lt;/fetch&gt;</applicablewhenxml>
+      <successconditionsxml>&lt;fetch version="1.0" output-format="xml-platform" mapping="logical"&gt;
+    &lt;entity name="smt_quotation"&gt;
+        &lt;filter type="and"&gt;
+            &lt;condition attribute="statuscode" operator="in"&gt;
+                &lt;value&gt;180580002&lt;/value&gt;
+                &lt;value&gt;180580000&lt;/value&gt;
+            &lt;/condition&gt;
+        &lt;/filter&gt;
+    &lt;/entity&gt;
+&lt;/fetch&gt;</successconditionsxml>
+      <sequencenumber>2</sequencenumber>
+      <failureafter>4320</failureafter>
+      <warnafter>2880</warnafter>
+      <allowpauseresume>False</allowpauseresume>
+      <applicableentity>smt_quotation</applicableentity>
+      <msdyn_slakpiid>9eb337cd-c4a6-eb11-9442-000d3ac11d26</msdyn_slakpiid>
+      <changedattributelist>statuscode,createdon,slaid,entitlementid,customerid</changedattributelist>
+      <msdyn_advancedpauseconfiguration>False</msdyn_advancedpauseconfiguration>
+    </SlaItem>
+  </SlaItems>
+</Sla>
