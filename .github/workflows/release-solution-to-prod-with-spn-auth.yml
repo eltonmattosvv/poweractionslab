@@ -37,13 +37,14 @@ env:
   TENANT_ID: '5a86b3fb-4213-49cd-b4d6-be91482ad3c0'
   
   # SIT
-  # CLIENT_ID: 'c91d8df2-8998-4795-a2f3-a16f052938e6'
-  # CLIENT_SECRET: 'YtQ9P70Q4fYKGONNT7+TN1493XYoUO4JWmHciNojMoo='
+  PRODUCTION_ENVIRONMENT_URL: 'https://b2bqas.crm2.dynamics.com/'
+  CLIENT_ID: 'c91d8df2-8998-4795-a2f3-a16f052938e6'
+  CLIENT_SECRET: 'YtQ9P70Q4fYKGONNT7+TN1493XYoUO4JWmHciNojMoo='
   
   # HLG
-  PRODUCTION_ENVIRONMENT_URL: 'https://b2bqas.crm2.dynamics.com/'
-  CLIENT_ID: '7d0408c7-e10e-4b95-b56c-76fd882ea297'
-  CLIENT_SECRET: 'TPwXBlbGA8BUNx6gZ1+z5hbZ7kgmzmq1Nqxfg2pebdg='
+  # PRODUCTION_ENVIRONMENT_URL: 'https://b2bqas.crm2.dynamics.com/'
+  # CLIENT_ID: '7d0408c7-e10e-4b95-b56c-76fd882ea297'
+  # CLIENT_SECRET: 'TPwXBlbGA8BUNx6gZ1+z5hbZ7kgmzmq1Nqxfg2pebdg='
 
   # PROD
   # PRODUCTION_ENVIRONMENT_URL: ''
