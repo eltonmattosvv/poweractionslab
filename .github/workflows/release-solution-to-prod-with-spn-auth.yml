@@ -11,6 +11,10 @@ on:
         required: true
         default: smartcustomizacoes
        #Do Not change these values
+      solution_exported_folder:
+        description: 'folder name for staging the exported solution *do not change*'
+        required: true
+        default: out/exported/
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'
         required: true
@@ -62,7 +66,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: managedSolutions
-        path: ${{ github.event.inputs.solution_source_folder}}/${{ github.event.inputs.solution_name }}.zip
+        path: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
 
   release-to-staging:
     needs: [ convert-to-managed ]
