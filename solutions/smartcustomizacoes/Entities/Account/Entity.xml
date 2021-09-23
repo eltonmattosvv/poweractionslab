@@ -419,39 +419,6 @@
             <Description description="Digite um segundo número de telefone desta conta." languagecode="1046" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="Telephone3" unmodified="1">
-          <Type>nvarchar</Type>
-          <Name>telephone3</Name>
-          <LogicalName>telephone3</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>inactive</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>0</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>5.0.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>phone</Format>
-          <MaxLength>50</MaxLength>
-          <Length>100</Length>
-          <displaynames>
-            <displayname description="Telefone 3" languagecode="1046" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Digite um terceiro número de telefone desta conta." languagecode="1046" />
-          </Descriptions>
-        </attribute>
       </attributes>
       <EntitySetName>accounts</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>

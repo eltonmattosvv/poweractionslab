@@ -6,8 +6,8 @@
       <LocalizedName description="Smart.Customizações" languagecode="1046" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.1.2</Version>
-    <Managed>0</Managed>
+    <Version>1.0.1.3</Version>
+    <Managed>1</Managed>
     <Publisher>
       <UniqueName>smartconsulting</UniqueName>
       <LocalizedNames>

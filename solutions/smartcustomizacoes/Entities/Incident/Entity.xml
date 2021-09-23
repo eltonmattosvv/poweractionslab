@@ -4,40 +4,6 @@
   <EntityInfo>
     <entity Name="Incident">
       <attributes>
-        <attribute PhysicalName="FirstResponseByKPIId" unmodified="1">
-          <Type>lookup</Type>
-          <Name>firstresponsebykpiid</Name>
-          <LogicalName>firstresponsebykpiid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>0</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>7.0.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes>
-            <LookupType id="00000000-0000-0000-0000-000000000000">9752</LookupType>
-          </LookupTypes>
-          <displaynames>
-            <displayname description="Primeira Resposta por KPI" languagecode="1046" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Somente para uso interno." languagecode="1046" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="smt_accountid">
           <Type>lookup</Type>
           <Name>smt_accountid</Name>
@@ -190,73 +156,6 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1046" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="SubjectId" unmodified="1">
-          <Type>lookup</Type>
-          <Name>subjectid</Name>
-          <LogicalName>subjectid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>0</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>5.0.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <LookupStyle>subject</LookupStyle>
-          <LookupTypes>
-            <LookupType id="00000000-0000-0000-0000-000000000000">129</LookupType>
-          </LookupTypes>
-          <displaynames>
-            <displayname description="Assunto" languagecode="1046" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Escolha o assunto da ocorrência, como solicitação de catálogo ou reclamação de produto, para que os gerentes do serviço de atendimento ao consumidor possam identificar solicitações frequentes ou áreas com problemas. Os administradores podem configurar assuntos em Gerenciamento de Negócios na área Configurações." languagecode="1046" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="Title" unmodified="1">
-          <Type>nvarchar</Type>
-          <Name>title</Name>
-          <LogicalName>title</LogicalName>
-          <RequiredLevel>required</RequiredLevel>
-          <DisplayMask>ActivityRegardingName|QueueItemTitle|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>0</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>5.0.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>1</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>1</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>1</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>200</MaxLength>
-          <Length>400</Length>
-          <displaynames>
-            <displayname description="Título da Ocorrência" languagecode="1046" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Digite o assunto ou o nome descritivo, como a solicitação, o problema, o nome da empresa, para identificar a ocorrência nas exibições do Microsoft Dynamics 365." languagecode="1046" />
           </Descriptions>
         </attribute>
       </attributes>
