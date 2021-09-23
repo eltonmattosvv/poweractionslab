@@ -28,6 +28,7 @@ env:
   ENVIRONMENT_URL: 'https://b2bdev.crm2.dynamics.com/'
   CLIENT_ID: 'bce06917-aa62-410f-a548-0bf30c20228c'
   TENANT_ID: '5a86b3fb-4213-49cd-b4d6-be91482ad3c0'
+  CLIENT_SECRET: 'G9UZO8QwuvQaYy3hHA7hqa42OLHK+Dz2nmZSlaJeChU='
 
 jobs:
   export-from-dev:
@@ -41,21 +42,20 @@ jobs:
       with:
         lfs: true
 
-    - name: who-am-i action
-      uses: microsoft/powerplatform-actions/who-am-i@0.4.0
-      with:
-        environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}}
-
+   # - name: who-am-i action
+   #   uses: microsoft/powerplatform-actions/who-am-i@0.4.0
+   #   with:
+   #     environment-url: ${{env.ENVIRONMENT_URL}}
+   #     app-id: ${{env.CLIENT_ID}}
+   #     client-secret: ${{env.CLIENT_SECRET}}
+   #     tenant-id: ${{env.TENANT_ID}}
 
    # - name: export-solution action
    #   uses: microsoft/powerplatform-actions/export-solution@0.4.0
    #   with:
    #     environment-url: ${{env.ENVIRONMENT_URL}}
    #     app-id: ${{env.CLIENT_ID}}
-   #     client-secret: ${{ secrets.PowerPlatformSPN }}
+   #     client-secret: ${{env.CLIENT_SECRET}}
    #     tenant-id: ${{env.TENANT_ID}}
    #     solution-name: ${{ github.event.inputs.solution_name }}
    #     solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
@@ -65,7 +65,7 @@ jobs:
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
+        client-secret: ${{env.CLIENT_SECRET}}
         tenant-id: ${{env.TENANT_ID}}
         solution-name: ${{ github.event.inputs.solution_name }}
         managed: true
