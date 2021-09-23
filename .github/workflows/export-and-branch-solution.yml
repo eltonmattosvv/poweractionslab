@@ -25,9 +25,10 @@ on:
        default: solutions/
 env:
 #edit your values here
+  TENANT_ID: '5a86b3fb-4213-49cd-b4d6-be91482ad3c0'
+  
   ENVIRONMENT_URL: 'https://b2bdev.crm2.dynamics.com/'
   CLIENT_ID: 'bce06917-aa62-410f-a548-0bf30c20228c'
-  TENANT_ID: '5a86b3fb-4213-49cd-b4d6-be91482ad3c0'
   CLIENT_SECRET: 'G9UZO8QwuvQaYy3hHA7hqa42OLHK+Dz2nmZSlaJeChU='
 
 jobs:
