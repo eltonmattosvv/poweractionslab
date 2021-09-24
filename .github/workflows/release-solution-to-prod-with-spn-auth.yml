@@ -47,9 +47,9 @@ env:
   # CLIENT_SECRET: 'TPwXBlbGA8BUNx6gZ1+z5hbZ7kgmzmq1Nqxfg2pebdg='
 
   # PROD
-   PRODUCTION_ENVIRONMENT_URL: 'https://b2bprd.crm2.dynamics.com/'
-   CLIENT_ID: '8536712f-5c48-4fd9-b744-6b4666a0bd9b'
-   CLIENT_SECRET: 'NaJBAQ0qE6YaHUHDEdcfgEqMpeXExP3ZMxDi2uA1zeM='
+  PRODUCTION_ENVIRONMENT_URL: 'https://b2bprd.crm2.dynamics.com/'
+  CLIENT_ID: '8536712f-5c48-4fd9-b744-6b4666a0bd9b'
+  CLIENT_SECRET: 'NaJBAQ0qE6YaHUHDEdcfgEqMpeXExP3ZMxDi2uA1zeM='
   
 jobs:
   convert-to-managed:
