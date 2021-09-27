@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21091.126" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21092.137" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>smartcustomizacoes</UniqueName>
     <LocalizedNames>
@@ -562,23 +562,23 @@
         <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2109.2007)" />
         <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2109.2007)" />
         <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2109.2007)" />
         <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Contato" id="{cd7a8208-0aa2-eb11-b1ac-002248374f2f}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2109.1013)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2109.2007)" />
         <Dependent type="60" displayName="Informações" parentDisplayName="Incidente " id="{0f9e62c1-3c01-46b9-b576-358f0ca8ed67}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.2.21091.00126)" />
+        <Required type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.2.21092.00137)" />
         <Dependent type="60" displayName="PRINCIPAL" parentDisplayName="Parceiro" id="{c76fcfbe-17a2-eb11-b1ac-0022483741ab}" />
       </MissingDependency>
       <MissingDependency>
