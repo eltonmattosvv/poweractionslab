@@ -35,11 +35,16 @@ env:
 #edit your values here
   
   TENANT_ID: '5a86b3fb-4213-49cd-b4d6-be91482ad3c0'
+ 
+  # DEV
+  # PRODUCTION_ENVIRONMENT_URL: 'https://b2bdev.crm2.dynamics.com/'
+  # CLIENT_ID: 'bce06917-aa62-410f-a548-0bf30c20228c'
+  # CLIENT_SECRET: 'G9UZO8QwuvQaYy3hHA7hqa42OLHK+Dz2nmZSlaJeChU='
   
   # SIT
-  # PRODUCTION_ENVIRONMENT_URL: ''
-  # CLIENT_ID: 'c91d8df2-8998-4795-a2f3-a16f052938e6'
-  # CLIENT_SECRET: 'YtQ9P70Q4fYKGONNT7+TN1493XYoUO4JWmHciNojMoo='
+  PRODUCTION_ENVIRONMENT_URL: 'https://b2bqas.crm2.dynamics.com/'
+  CLIENT_ID: 'c91d8df2-8998-4795-a2f3-a16f052938e6'
+  CLIENT_SECRET: 'YtQ9P70Q4fYKGONNT7+TN1493XYoUO4JWmHciNojMoo='
   
   # HLG
   # PRODUCTION_ENVIRONMENT_URL: 'https://b2bqas.crm2.dynamics.com/'
@@ -47,9 +52,9 @@ env:
   # CLIENT_SECRET: 'TPwXBlbGA8BUNx6gZ1+z5hbZ7kgmzmq1Nqxfg2pebdg='
 
   # PROD
-  PRODUCTION_ENVIRONMENT_URL: 'https://b2bprd.crm2.dynamics.com/'
-  CLIENT_ID: '8536712f-5c48-4fd9-b744-6b4666a0bd9b'
-  CLIENT_SECRET: 'NaJBAQ0qE6YaHUHDEdcfgEqMpeXExP3ZMxDi2uA1zeM='
+  # PRODUCTION_ENVIRONMENT_URL: 'https://b2bprd.crm2.dynamics.com/'
+  # CLIENT_ID: '8536712f-5c48-4fd9-b744-6b4666a0bd9b'
+  # CLIENT_SECRET: 'NaJBAQ0qE6YaHUHDEdcfgEqMpeXExP3ZMxDi2uA1zeM='
   
 jobs:
   convert-to-managed:
