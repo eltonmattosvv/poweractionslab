@@ -63,6 +63,14 @@ jobs:
       with:
         lfs: true
         
+    - name: who-am-i action
+      uses: microsoft/powerplatform-actions/who-am-i@0.4.0
+      with:
+        environment-url: ${{env.PRODUCTION_ENVIRONMENT_URL}}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret:  ${{env.CLIENT_SECRET}}
+        tenant-id: ${{env.TENANT_ID}}
+        
     - name: Pack solution
       uses: microsoft/powerplatform-actions/pack-solution@0.4.0
       with:
